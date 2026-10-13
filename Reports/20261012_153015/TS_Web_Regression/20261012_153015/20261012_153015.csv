@@ -1,0 +1,61 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Web_Regression,Chrome 155.0.8059.40,,,12-10-2026 15:30:21,12-10-2026 15:31:24,1m - 3.447s,FAILED
+,,,,,,,
+Test Cases/TC_01_Register_New_Account,Chrome 155.0.8059.40,,,12-10-2026 15:30:22,12-10-2026 15:30:49,26.999s,FAILED
+"DATA BINDING - {""(Default) usern..."":"""",""(Default) passw..."":"""",""(Default) first..."":"""",""(Default) email"":"""",""(Default) city"":"""",""(Default) lastn..."":"""",""(Default) addre..."":"""",""(Default) Expec..."":"""",""(Default) count..."":"""",""(Default) repea..."":"""",""(Default) enabl..."":""false"",""(Default) state"":"""",""(Default) zip"":"""",""(Default) categ..."":"""",""(Default) langu..."":"""",""(Default) phone"":""""}",,,,,,,
+"openBrowser("""")",Chrome 155.0.8059.40,,,12-10-2026 15:30:23,12-10-2026 15:30:29,5.388s,PASSED
+navigateToUrl(base_url),Chrome 155.0.8059.40,,,12-10-2026 15:30:29,12-10-2026 15:30:35,5.949s,PASSED
+"click(findTestObject(""page_Home/btn_Sign_in""))",Chrome 155.0.8059.40,,,12-10-2026 15:30:35,12-10-2026 15:30:36,1.309s,PASSED
+"click(findTestObject(""page_Sign_in/btn_Sign_up""))",Chrome 155.0.8059.40,,,12-10-2026 15:30:36,12-10-2026 15:30:37,0.994s,PASSED
+"setText(findTestObject(""page_Sign_up/input_UserID""), username)",Chrome 155.0.8059.40,,,12-10-2026 15:30:37,12-10-2026 15:30:38,1.151s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Newpassword""), password)",Chrome 155.0.8059.40,,,12-10-2026 15:30:38,12-10-2026 15:30:39,0.990s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Repeat_password""), repeat_password)",Chrome 155.0.8059.40,,,12-10-2026 15:30:39,12-10-2026 15:30:40,0.966s,PASSED
+"setText(findTestObject(""page_Sign_up/input_First_name""), firstname)",Chrome 155.0.8059.40,,,12-10-2026 15:30:40,12-10-2026 15:30:41,0.868s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Last_name""), lastname)",Chrome 155.0.8059.40,,,12-10-2026 15:30:41,12-10-2026 15:30:42,0.908s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Email""), email)",Chrome 155.0.8059.40,,,12-10-2026 15:30:42,12-10-2026 15:30:43,0.865s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Phone""), phone)",Chrome 155.0.8059.40,,,12-10-2026 15:30:43,12-10-2026 15:30:44,0.896s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Address_1""), address1)",Chrome 155.0.8059.40,,,12-10-2026 15:30:44,12-10-2026 15:30:44,0.918s,PASSED
+if (address2),Chrome 155.0.8059.40,,,12-10-2026 15:30:44,12-10-2026 15:30:44,0.023s,PASSED
+"setText(findTestObject(""page_Sign_up/input_City""), city)",Chrome 155.0.8059.40,,,12-10-2026 15:30:44,12-10-2026 15:30:45,0.922s,PASSED
+"setText(findTestObject(""page_Sign_up/input_State""), state)",Chrome 155.0.8059.40,,,12-10-2026 15:30:45,12-10-2026 15:30:46,0.882s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Zip""), zip)",Chrome 155.0.8059.40,,,12-10-2026 15:30:46,12-10-2026 15:30:47,0.879s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Country""), country)",Chrome 155.0.8059.40,,,12-10-2026 15:30:47,12-10-2026 15:30:48,0.849s,PASSED
+"selectOptionByLabel(findTestObject(""page_Sign_up/select_Language_preference""), language, false)",Chrome 155.0.8059.40,,,12-10-2026 15:30:48,12-10-2026 15:30:49,0.878s,FAILED
+,,,,,,,
+Test Cases/TC_02_Login_Success,Chrome 155.0.8059.40,,,12-10-2026 15:30:49,12-10-2026 15:30:58,9.572s,PASSED
+"openBrowser("""")",Chrome 155.0.8059.40,,,12-10-2026 15:30:49,12-10-2026 15:30:52,2.534s,PASSED
+navigateToUrl(base_url),Chrome 155.0.8059.40,,,12-10-2026 15:30:52,12-10-2026 15:30:54,1.953s,PASSED
+"click(findTestObject(""page_Home/btn_Sign_in""))",Chrome 155.0.8059.40,,,12-10-2026 15:30:54,12-10-2026 15:30:55,0.908s,PASSED
+"setText(findTestObject(""page_Sign_in/input_Username""), valid_username)",Chrome 155.0.8059.40,,,12-10-2026 15:30:55,12-10-2026 15:30:56,1.017s,PASSED
+"setText(findTestObject(""page_Sign_in/input_Password""), valid_password)",Chrome 155.0.8059.40,,,12-10-2026 15:30:56,12-10-2026 15:30:56,0.851s,PASSED
+"click(findTestObject(""page_Sign_in/btn_Login""))",Chrome 155.0.8059.40,,,12-10-2026 15:30:56,12-10-2026 15:30:58,1.309s,PASSED
+"verifyElementPresent(findTestObject(""page_Home/btn_Sign_out""), 5)",Chrome 155.0.8059.40,,,12-10-2026 15:30:58,12-10-2026 15:30:58,0.334s,PASSED
+closeBrowser(),Chrome 155.0.8059.40,,,12-10-2026 15:30:58,12-10-2026 15:30:58,0.397s,PASSED
+,,,,,,,
+Test Cases/TC_03_Login_Failed,Chrome 155.0.8059.40,,,12-10-2026 15:30:59,12-10-2026 15:31:07,8.060s,PASSED
+"openBrowser("""")",Chrome 155.0.8059.40,,,12-10-2026 15:30:59,12-10-2026 15:31:00,1.642s,PASSED
+navigateToUrl(base_url),Chrome 155.0.8059.40,,,12-10-2026 15:31:00,12-10-2026 15:31:02,1.739s,PASSED
+"click(findTestObject(""page_Home/btn_Sign_in""))",Chrome 155.0.8059.40,,,12-10-2026 15:31:02,12-10-2026 15:31:03,0.898s,PASSED
+"setText(findTestObject(""page_Sign_in/input_Username""), valid_username)",Chrome 155.0.8059.40,,,12-10-2026 15:31:03,12-10-2026 15:31:04,0.941s,PASSED
+"setText(findTestObject(""page_Sign_in/input_Password""), ""PasswordSalah123"")",Chrome 155.0.8059.40,,,12-10-2026 15:31:04,12-10-2026 15:31:05,0.858s,PASSED
+"click(findTestObject(""page_Sign_in/btn_Login""))",Chrome 155.0.8059.40,,,12-10-2026 15:31:05,12-10-2026 15:31:06,1.026s,PASSED
+"verifyTextPresent(""Invalid username or password"", false)",Chrome 155.0.8059.40,,,12-10-2026 15:31:06,12-10-2026 15:31:06,0.449s,PASSED
+closeBrowser(),Chrome 155.0.8059.40,,,12-10-2026 15:31:06,12-10-2026 15:31:07,0.387s,PASSED
+,,,,,,,
+Test Cases/TC_04_Search_Product,Chrome 155.0.8059.40,,,12-10-2026 15:31:07,12-10-2026 15:31:14,7.465s,PASSED
+"openBrowser("""")",Chrome 155.0.8059.40,,,12-10-2026 15:31:07,12-10-2026 15:31:08,1.489s,PASSED
+navigateToUrl(base_url),Chrome 155.0.8059.40,,,12-10-2026 15:31:08,12-10-2026 15:31:10,2.061s,PASSED
+"setText(findTestObject(""page_Home/input_Search""), ""fish"")",Chrome 155.0.8059.40,,,12-10-2026 15:31:10,12-10-2026 15:31:11,0.896s,PASSED
+"click(findTestObject(""page_Home/btn_Search""))",Chrome 155.0.8059.40,,,12-10-2026 15:31:11,12-10-2026 15:31:13,2.235s,PASSED
+"verifyTextPresent(""Goldfish"", false)",Chrome 155.0.8059.40,,,12-10-2026 15:31:13,12-10-2026 15:31:14,0.311s,PASSED
+closeBrowser(),Chrome 155.0.8059.40,,,12-10-2026 15:31:14,12-10-2026 15:31:14,0.351s,PASSED
+,,,,,,,
+Test Cases/TC_05_Add_Product_To_Cart,Chrome 155.0.8059.40,,,12-10-2026 15:31:14,12-10-2026 15:31:24,10.235s,PASSED
+"openBrowser("""")",Chrome 155.0.8059.40,,,12-10-2026 15:31:14,12-10-2026 15:31:16,1.641s,PASSED
+navigateToUrl(base_url),Chrome 155.0.8059.40,,,12-10-2026 15:31:16,12-10-2026 15:31:18,1.866s,PASSED
+"click(findTestObject(""page_Home/link_Category_Fish""))",Chrome 155.0.8059.40,,,12-10-2026 15:31:18,12-10-2026 15:31:19,0.991s,PASSED
+"click(findTestObject(""page_Home/link_Product_Angelfish""))",Chrome 155.0.8059.40,,,12-10-2026 15:31:19,12-10-2026 15:31:22,2.855s,PASSED
+"click(findTestObject(""page_Home/btn_Add_to_cart""))",Chrome 155.0.8059.40,,,12-10-2026 15:31:22,12-10-2026 15:31:23,1.512s,PASSED
+"verifyTextPresent(""Shopping Cart"", false)",Chrome 155.0.8059.40,,,12-10-2026 15:31:23,12-10-2026 15:31:24,0.531s,PASSED
+"verifyTextPresent(""EST-1"", false)",Chrome 155.0.8059.40,,,12-10-2026 15:31:24,12-10-2026 15:31:24,0.325s,PASSED
+closeBrowser(),Chrome 155.0.8059.40,,,12-10-2026 15:31:24,12-10-2026 15:31:24,0.403s,PASSED

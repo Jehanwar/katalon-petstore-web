@@ -1,0 +1,166 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Register_DDT,Chrome 155.0.8059.40,,,12-10-2026 09:41:49,12-10-2026 09:44:11,2m - 21.841s,FAILED
+,,,,,,,
+Test Cases/TC_Register_New_Account,Chrome 155.0.8059.40,,,12-10-2026 09:41:50,12-10-2026 09:42:20,29.984s,FAILED
+"DATA BINDING - {""zip"":""12345"",""country"":""Indonesia"",""firstname"":""Jehan"",""enable_mybanner"":""true"",""repeat_password"":""Secret123"",""address2"":""Blok M"",""city"":""Jakarta"",""address1"":""Jl. Merdeka No.1"",""language"":""english"",""enable_mylist"":""true"",""lastname"":""Anwar"",""password"":""Secret123"",""ExpectedResult"":""Success"",""phone"":""0812345678"",""state"":""DKI"",""category"":""DOGS"",""email"":""jehan@email.com"",""username"":""jehan_master""}",,,,,,,
+"openBrowser("""")",Chrome 155.0.8059.40,,,12-10-2026 09:41:51,12-10-2026 09:41:55,4.017s,PASSED
+navigateToUrl(base_url),Chrome 155.0.8059.40,,,12-10-2026 09:41:55,12-10-2026 09:41:57,2.514s,PASSED
+"click(findTestObject(""page_Home/btn_Sign_in""))",Chrome 155.0.8059.40,,,12-10-2026 09:41:57,12-10-2026 09:41:58,1.100s,PASSED
+"click(findTestObject(""page_Sign_in/btn_Sign_up""))",Chrome 155.0.8059.40,,,12-10-2026 09:41:58,12-10-2026 09:41:59,0.870s,PASSED
+"setText(findTestObject(""page_Sign_up/input_UserID""), username)",Chrome 155.0.8059.40,,,12-10-2026 09:41:59,12-10-2026 09:42:00,0.992s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Newpassword""), password)",Chrome 155.0.8059.40,,,12-10-2026 09:42:00,12-10-2026 09:42:01,0.787s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Repeat_password""), repeat_password)",Chrome 155.0.8059.40,,,12-10-2026 09:42:01,12-10-2026 09:42:02,0.859s,PASSED
+"setText(findTestObject(""page_Sign_up/input_First_name""), firstname)",Chrome 155.0.8059.40,,,12-10-2026 09:42:02,12-10-2026 09:42:03,0.806s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Last_name""), lastname)",Chrome 155.0.8059.40,,,12-10-2026 09:42:03,12-10-2026 09:42:04,0.798s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Email""), email)",Chrome 155.0.8059.40,,,12-10-2026 09:42:04,12-10-2026 09:42:04,0.790s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Phone""), phone)",Chrome 155.0.8059.40,,,12-10-2026 09:42:04,12-10-2026 09:42:05,0.764s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Address_1""), address1)",Chrome 155.0.8059.40,,,12-10-2026 09:42:05,12-10-2026 09:42:06,1.021s,PASSED
+if (address2),Chrome 155.0.8059.40,,,12-10-2026 09:42:06,12-10-2026 09:42:07,1.032s,PASSED
+"setText(findTestObject(""page_Sign_up/input_City""), city)",Chrome 155.0.8059.40,,,12-10-2026 09:42:07,12-10-2026 09:42:08,0.897s,PASSED
+"setText(findTestObject(""page_Sign_up/input_State""), state)",Chrome 155.0.8059.40,,,12-10-2026 09:42:08,12-10-2026 09:42:09,0.838s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Zip""), zip)",Chrome 155.0.8059.40,,,12-10-2026 09:42:09,12-10-2026 09:42:10,0.856s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Country""), country)",Chrome 155.0.8059.40,,,12-10-2026 09:42:10,12-10-2026 09:42:11,0.813s,PASSED
+"selectOptionByLabel(findTestObject(""page_Sign_up/select_Language_preference""), language, false)",Chrome 155.0.8059.40,,,12-10-2026 09:42:11,12-10-2026 09:42:11,0.646s,PASSED
+"selectOptionByLabel(findTestObject(""page_Sign_up/select_Favourite_category""), category, false)",Chrome 155.0.8059.40,,,12-10-2026 09:42:11,12-10-2026 09:42:12,0.648s,PASSED
+if (enable_mylist.toBoolean()),Chrome 155.0.8059.40,,,12-10-2026 09:42:12,12-10-2026 09:42:12,0.439s,PASSED
+if (enable_mybanner.toBoolean()),Chrome 155.0.8059.40,,,12-10-2026 09:42:12,12-10-2026 09:42:13,0.449s,PASSED
+"click(findTestObject(""page_Sign_up/btn_Save_account""))",Chrome 155.0.8059.40,,,12-10-2026 09:42:13,12-10-2026 09:42:15,1.984s,PASSED
+"if (ExpectedResult == ""Success"")",Chrome 155.0.8059.40,,,12-10-2026 09:42:15,12-10-2026 09:42:20,5.468s,FAILED
+,,,,,,,
+Test Cases/TC_Register_New_Account,Chrome 155.0.8059.40,,,12-10-2026 09:42:20,12-10-2026 09:42:44,24.004s,FAILED
+"DATA BINDING - {""zip"":""40111"",""country"":""Indonesia"",""firstname"":""Budi"",""enable_mybanner"":""false"",""repeat_password"":""Secret123"",""city"":""Bandung"",""address1"":""Jl. Sudirman No.5"",""(Default) addre..."":"""",""language"":""japanese"",""enable_mylist"":""true"",""lastname"":""Santoso"",""password"":""Secret123"",""ExpectedResult"":""Success"",""phone"":""0898765432"",""state"":""Jabar"",""category"":""CATS"",""email"":""budi@email.com"",""username"":""jehan_test2""}",,,,,,,
+"openBrowser("""")",Chrome 155.0.8059.40,,,12-10-2026 09:42:20,12-10-2026 09:42:22,1.757s,PASSED
+navigateToUrl(base_url),Chrome 155.0.8059.40,,,12-10-2026 09:42:22,12-10-2026 09:42:24,1.903s,PASSED
+"click(findTestObject(""page_Home/btn_Sign_in""))",Chrome 155.0.8059.40,,,12-10-2026 09:42:24,12-10-2026 09:42:25,0.734s,PASSED
+"click(findTestObject(""page_Sign_in/btn_Sign_up""))",Chrome 155.0.8059.40,,,12-10-2026 09:42:25,12-10-2026 09:42:26,0.833s,PASSED
+"setText(findTestObject(""page_Sign_up/input_UserID""), username)",Chrome 155.0.8059.40,,,12-10-2026 09:42:26,12-10-2026 09:42:27,0.866s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Newpassword""), password)",Chrome 155.0.8059.40,,,12-10-2026 09:42:27,12-10-2026 09:42:27,0.820s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Repeat_password""), repeat_password)",Chrome 155.0.8059.40,,,12-10-2026 09:42:27,12-10-2026 09:42:28,0.841s,PASSED
+"setText(findTestObject(""page_Sign_up/input_First_name""), firstname)",Chrome 155.0.8059.40,,,12-10-2026 09:42:28,12-10-2026 09:42:29,0.805s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Last_name""), lastname)",Chrome 155.0.8059.40,,,12-10-2026 09:42:29,12-10-2026 09:42:30,0.731s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Email""), email)",Chrome 155.0.8059.40,,,12-10-2026 09:42:30,12-10-2026 09:42:31,0.799s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Phone""), phone)",Chrome 155.0.8059.40,,,12-10-2026 09:42:31,12-10-2026 09:42:31,0.900s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Address_1""), address1)",Chrome 155.0.8059.40,,,12-10-2026 09:42:31,12-10-2026 09:42:32,0.843s,PASSED
+if (address2),Chrome 155.0.8059.40,,,12-10-2026 09:42:32,12-10-2026 09:42:32,0.004s,PASSED
+"setText(findTestObject(""page_Sign_up/input_City""), city)",Chrome 155.0.8059.40,,,12-10-2026 09:42:32,12-10-2026 09:42:33,0.847s,PASSED
+"setText(findTestObject(""page_Sign_up/input_State""), state)",Chrome 155.0.8059.40,,,12-10-2026 09:42:33,12-10-2026 09:42:34,0.837s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Zip""), zip)",Chrome 155.0.8059.40,,,12-10-2026 09:42:34,12-10-2026 09:42:35,0.886s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Country""), country)",Chrome 155.0.8059.40,,,12-10-2026 09:42:35,12-10-2026 09:42:36,0.814s,PASSED
+"selectOptionByLabel(findTestObject(""page_Sign_up/select_Language_preference""), language, false)",Chrome 155.0.8059.40,,,12-10-2026 09:42:36,12-10-2026 09:42:36,0.618s,PASSED
+"selectOptionByLabel(findTestObject(""page_Sign_up/select_Favourite_category""), category, false)",Chrome 155.0.8059.40,,,12-10-2026 09:42:36,12-10-2026 09:42:37,0.623s,PASSED
+if (enable_mylist.toBoolean()),Chrome 155.0.8059.40,,,12-10-2026 09:42:37,12-10-2026 09:42:37,0.429s,PASSED
+if (enable_mybanner.toBoolean()),Chrome 155.0.8059.40,,,12-10-2026 09:42:37,12-10-2026 09:42:37,0.005s,PASSED
+else,Chrome 155.0.8059.40,,,12-10-2026 09:42:37,12-10-2026 09:42:38,0.391s,PASSED
+"click(findTestObject(""page_Sign_up/btn_Save_account""))",Chrome 155.0.8059.40,,,12-10-2026 09:42:38,12-10-2026 09:42:39,1.151s,PASSED
+"if (ExpectedResult == ""Success"")",Chrome 155.0.8059.40,,,12-10-2026 09:42:39,12-10-2026 09:42:44,5.448s,FAILED
+,,,,,,,
+Test Cases/TC_Register_New_Account,Chrome 155.0.8059.40,,,12-10-2026 09:42:44,12-10-2026 09:43:08,23.988s,FAILED
+"DATA BINDING - {""zip"":""12345"",""country"":""Indonesia"",""firstname"":""Jehan"",""enable_mybanner"":""true"",""repeat_password"":""Secret123"",""address2"":""Blok B"",""city"":""Jakarta"",""address1"":""Jl. Merdeka No.1"",""language"":""english"",""enable_mylist"":""false"",""lastname"":""Anwar"",""password"":""Secret123"",""ExpectedResult"":""Failed"",""phone"":""0812345678"",""state"":""DKI"",""category"":""FISH"",""email"":""jehan@email.com"",""username"":""jehan_master""}",,,,,,,
+"openBrowser("""")",Chrome 155.0.8059.40,,,12-10-2026 09:42:45,12-10-2026 09:42:46,1.444s,PASSED
+navigateToUrl(base_url),Chrome 155.0.8059.40,,,12-10-2026 09:42:46,12-10-2026 09:42:48,1.567s,PASSED
+"click(findTestObject(""page_Home/btn_Sign_in""))",Chrome 155.0.8059.40,,,12-10-2026 09:42:48,12-10-2026 09:42:48,0.727s,PASSED
+"click(findTestObject(""page_Sign_in/btn_Sign_up""))",Chrome 155.0.8059.40,,,12-10-2026 09:42:48,12-10-2026 09:42:49,0.952s,PASSED
+"setText(findTestObject(""page_Sign_up/input_UserID""), username)",Chrome 155.0.8059.40,,,12-10-2026 09:42:49,12-10-2026 09:42:50,0.927s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Newpassword""), password)",Chrome 155.0.8059.40,,,12-10-2026 09:42:50,12-10-2026 09:42:51,0.815s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Repeat_password""), repeat_password)",Chrome 155.0.8059.40,,,12-10-2026 09:42:51,12-10-2026 09:42:52,0.816s,PASSED
+"setText(findTestObject(""page_Sign_up/input_First_name""), firstname)",Chrome 155.0.8059.40,,,12-10-2026 09:42:52,12-10-2026 09:42:53,0.802s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Last_name""), lastname)",Chrome 155.0.8059.40,,,12-10-2026 09:42:53,12-10-2026 09:42:53,0.701s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Email""), email)",Chrome 155.0.8059.40,,,12-10-2026 09:42:53,12-10-2026 09:42:54,0.806s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Phone""), phone)",Chrome 155.0.8059.40,,,12-10-2026 09:42:54,12-10-2026 09:42:55,0.813s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Address_1""), address1)",Chrome 155.0.8059.40,,,12-10-2026 09:42:55,12-10-2026 09:42:56,0.874s,PASSED
+if (address2),Chrome 155.0.8059.40,,,12-10-2026 09:42:56,12-10-2026 09:42:57,0.864s,PASSED
+"setText(findTestObject(""page_Sign_up/input_City""), city)",Chrome 155.0.8059.40,,,12-10-2026 09:42:57,12-10-2026 09:42:58,0.865s,PASSED
+"setText(findTestObject(""page_Sign_up/input_State""), state)",Chrome 155.0.8059.40,,,12-10-2026 09:42:58,12-10-2026 09:42:58,0.820s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Zip""), zip)",Chrome 155.0.8059.40,,,12-10-2026 09:42:58,12-10-2026 09:42:59,0.834s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Country""), country)",Chrome 155.0.8059.40,,,12-10-2026 09:42:59,12-10-2026 09:43:00,0.846s,PASSED
+"selectOptionByLabel(findTestObject(""page_Sign_up/select_Language_preference""), language, false)",Chrome 155.0.8059.40,,,12-10-2026 09:43:00,12-10-2026 09:43:01,0.608s,PASSED
+"selectOptionByLabel(findTestObject(""page_Sign_up/select_Favourite_category""), category, false)",Chrome 155.0.8059.40,,,12-10-2026 09:43:01,12-10-2026 09:43:01,0.575s,PASSED
+if (enable_mylist.toBoolean()),Chrome 155.0.8059.40,,,12-10-2026 09:43:01,12-10-2026 09:43:01,0.003s,PASSED
+else,Chrome 155.0.8059.40,,,12-10-2026 09:43:01,12-10-2026 09:43:02,0.353s,PASSED
+if (enable_mybanner.toBoolean()),Chrome 155.0.8059.40,,,12-10-2026 09:43:02,12-10-2026 09:43:02,0.420s,PASSED
+"click(findTestObject(""page_Sign_up/btn_Save_account""))",Chrome 155.0.8059.40,,,12-10-2026 09:43:02,12-10-2026 09:43:03,1.112s,PASSED
+"if (ExpectedResult == ""Success"")",Chrome 155.0.8059.40,,,12-10-2026 09:43:03,12-10-2026 09:43:03,0.003s,PASSED
+else,Chrome 155.0.8059.40,,,12-10-2026 09:43:03,12-10-2026 09:43:08,5.347s,FAILED
+,,,,,,,
+Test Cases/TC_Register_New_Account,Chrome 155.0.8059.40,,,12-10-2026 09:43:09,12-10-2026 09:43:28,19.146s,PASSED
+"DATA BINDING - {""zip"":""40111"",""country"":""Indonesia"",""firstname"":""Jehan"",""enable_mybanner"":""true"",""(Default) passw..."":"""",""repeat_password"":""WrongPass"",""address2"":""Blok D"",""city"":""Bandung"",""address1"":""Jl. Sudirman"",""language"":""japanese"",""enable_mylist"":""true"",""lastname"":""Anwar"",""ExpectedResult"":""Failed"",""phone"":""0812345678"",""state"":""Jabar"",""category"":""REPTILES"",""email"":""jehan2@email.com"",""username"":""jehan02""}",,,,,,,
+"openBrowser("""")",Chrome 155.0.8059.40,,,12-10-2026 09:43:09,12-10-2026 09:43:10,1.367s,PASSED
+navigateToUrl(base_url),Chrome 155.0.8059.40,,,12-10-2026 09:43:10,12-10-2026 09:43:12,1.806s,PASSED
+"click(findTestObject(""page_Home/btn_Sign_in""))",Chrome 155.0.8059.40,,,12-10-2026 09:43:12,12-10-2026 09:43:13,0.682s,PASSED
+"click(findTestObject(""page_Sign_in/btn_Sign_up""))",Chrome 155.0.8059.40,,,12-10-2026 09:43:13,12-10-2026 09:43:13,0.849s,PASSED
+"setText(findTestObject(""page_Sign_up/input_UserID""), username)",Chrome 155.0.8059.40,,,12-10-2026 09:43:13,12-10-2026 09:43:14,1.056s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Newpassword""), password)",Chrome 155.0.8059.40,,,12-10-2026 09:43:14,12-10-2026 09:43:15,0.756s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Repeat_password""), repeat_password)",Chrome 155.0.8059.40,,,12-10-2026 09:43:15,12-10-2026 09:43:16,0.830s,PASSED
+"setText(findTestObject(""page_Sign_up/input_First_name""), firstname)",Chrome 155.0.8059.40,,,12-10-2026 09:43:16,12-10-2026 09:43:17,0.815s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Last_name""), lastname)",Chrome 155.0.8059.40,,,12-10-2026 09:43:17,12-10-2026 09:43:18,0.813s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Email""), email)",Chrome 155.0.8059.40,,,12-10-2026 09:43:18,12-10-2026 09:43:18,0.777s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Phone""), phone)",Chrome 155.0.8059.40,,,12-10-2026 09:43:18,12-10-2026 09:43:19,0.827s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Address_1""), address1)",Chrome 155.0.8059.40,,,12-10-2026 09:43:19,12-10-2026 09:43:20,0.826s,PASSED
+if (address2),Chrome 155.0.8059.40,,,12-10-2026 09:43:20,12-10-2026 09:43:21,0.767s,PASSED
+"setText(findTestObject(""page_Sign_up/input_City""), city)",Chrome 155.0.8059.40,,,12-10-2026 09:43:21,12-10-2026 09:43:22,0.836s,PASSED
+"setText(findTestObject(""page_Sign_up/input_State""), state)",Chrome 155.0.8059.40,,,12-10-2026 09:43:22,12-10-2026 09:43:22,0.787s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Zip""), zip)",Chrome 155.0.8059.40,,,12-10-2026 09:43:22,12-10-2026 09:43:23,0.776s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Country""), country)",Chrome 155.0.8059.40,,,12-10-2026 09:43:23,12-10-2026 09:43:24,0.814s,PASSED
+"selectOptionByLabel(findTestObject(""page_Sign_up/select_Language_preference""), language, false)",Chrome 155.0.8059.40,,,12-10-2026 09:43:24,12-10-2026 09:43:25,0.668s,PASSED
+"selectOptionByLabel(findTestObject(""page_Sign_up/select_Favourite_category""), category, false)",Chrome 155.0.8059.40,,,12-10-2026 09:43:25,12-10-2026 09:43:25,0.627s,PASSED
+if (enable_mylist.toBoolean()),Chrome 155.0.8059.40,,,12-10-2026 09:43:25,12-10-2026 09:43:26,0.440s,PASSED
+if (enable_mybanner.toBoolean()),Chrome 155.0.8059.40,,,12-10-2026 09:43:26,12-10-2026 09:43:26,0.375s,PASSED
+"click(findTestObject(""page_Sign_up/btn_Save_account""))",Chrome 155.0.8059.40,,,12-10-2026 09:43:26,12-10-2026 09:43:27,0.798s,PASSED
+"if (ExpectedResult == ""Success"")",Chrome 155.0.8059.40,,,12-10-2026 09:43:27,12-10-2026 09:43:27,0.005s,PASSED
+else,Chrome 155.0.8059.40,,,12-10-2026 09:43:27,12-10-2026 09:43:27,0.471s,PASSED
+closeBrowser(),Chrome 155.0.8059.40,,,12-10-2026 09:43:27,12-10-2026 09:43:28,0.302s,PASSED
+,,,,,,,
+Test Cases/TC_Register_New_Account,Chrome 155.0.8059.40,,,12-10-2026 09:43:28,12-10-2026 09:43:47,19.121s,PASSED
+"DATA BINDING - {""(Default) usern..."":"""",""zip"":""60111"",""country"":""Indonesia"",""firstname"":""Siti"",""enable_mybanner"":""true"",""repeat_password"":""Secret123"",""address2"":""Blok E"",""city"":""Surabaya"",""address1"":""Jl. Ahmad Yani"",""language"":""english"",""enable_mylist"":""true"",""lastname"":""Aminah"",""password"":""Secret123"",""ExpectedResult"":""Failed"",""phone"":""0811223344"",""state"":""Jatim"",""category"":""BIRDS"",""email"":""siti@email.com""}",,,,,,,
+"openBrowser("""")",Chrome 155.0.8059.40,,,12-10-2026 09:43:28,12-10-2026 09:43:29,1.157s,PASSED
+navigateToUrl(base_url),Chrome 155.0.8059.40,,,12-10-2026 09:43:29,12-10-2026 09:43:31,1.635s,PASSED
+"click(findTestObject(""page_Home/btn_Sign_in""))",Chrome 155.0.8059.40,,,12-10-2026 09:43:31,12-10-2026 09:43:31,0.778s,PASSED
+"click(findTestObject(""page_Sign_in/btn_Sign_up""))",Chrome 155.0.8059.40,,,12-10-2026 09:43:31,12-10-2026 09:43:32,0.940s,PASSED
+"setText(findTestObject(""page_Sign_up/input_UserID""), username)",Chrome 155.0.8059.40,,,12-10-2026 09:43:32,12-10-2026 09:43:33,0.925s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Newpassword""), password)",Chrome 155.0.8059.40,,,12-10-2026 09:43:33,12-10-2026 09:43:34,0.823s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Repeat_password""), repeat_password)",Chrome 155.0.8059.40,,,12-10-2026 09:43:34,12-10-2026 09:43:35,0.820s,PASSED
+"setText(findTestObject(""page_Sign_up/input_First_name""), firstname)",Chrome 155.0.8059.40,,,12-10-2026 09:43:35,12-10-2026 09:43:36,0.809s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Last_name""), lastname)",Chrome 155.0.8059.40,,,12-10-2026 09:43:36,12-10-2026 09:43:37,0.816s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Email""), email)",Chrome 155.0.8059.40,,,12-10-2026 09:43:37,12-10-2026 09:43:37,0.809s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Phone""), phone)",Chrome 155.0.8059.40,,,12-10-2026 09:43:37,12-10-2026 09:43:38,0.865s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Address_1""), address1)",Chrome 155.0.8059.40,,,12-10-2026 09:43:38,12-10-2026 09:43:39,0.780s,PASSED
+if (address2),Chrome 155.0.8059.40,,,12-10-2026 09:43:39,12-10-2026 09:43:40,0.781s,PASSED
+"setText(findTestObject(""page_Sign_up/input_City""), city)",Chrome 155.0.8059.40,,,12-10-2026 09:43:40,12-10-2026 09:43:41,0.849s,PASSED
+"setText(findTestObject(""page_Sign_up/input_State""), state)",Chrome 155.0.8059.40,,,12-10-2026 09:43:41,12-10-2026 09:43:42,0.825s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Zip""), zip)",Chrome 155.0.8059.40,,,12-10-2026 09:43:42,12-10-2026 09:43:42,0.791s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Country""), country)",Chrome 155.0.8059.40,,,12-10-2026 09:43:42,12-10-2026 09:43:43,0.735s,PASSED
+"selectOptionByLabel(findTestObject(""page_Sign_up/select_Language_preference""), language, false)",Chrome 155.0.8059.40,,,12-10-2026 09:43:43,12-10-2026 09:43:44,0.607s,PASSED
+"selectOptionByLabel(findTestObject(""page_Sign_up/select_Favourite_category""), category, false)",Chrome 155.0.8059.40,,,12-10-2026 09:43:44,12-10-2026 09:43:44,0.611s,PASSED
+if (enable_mylist.toBoolean()),Chrome 155.0.8059.40,,,12-10-2026 09:43:44,12-10-2026 09:43:45,0.400s,PASSED
+if (enable_mybanner.toBoolean()),Chrome 155.0.8059.40,,,12-10-2026 09:43:45,12-10-2026 09:43:45,0.369s,PASSED
+"click(findTestObject(""page_Sign_up/btn_Save_account""))",Chrome 155.0.8059.40,,,12-10-2026 09:43:45,12-10-2026 09:43:46,1.127s,PASSED
+"if (ExpectedResult == ""Success"")",Chrome 155.0.8059.40,,,12-10-2026 09:43:46,12-10-2026 09:43:46,0.001s,PASSED
+else,Chrome 155.0.8059.40,,,12-10-2026 09:43:46,12-10-2026 09:43:47,0.479s,PASSED
+closeBrowser(),Chrome 155.0.8059.40,,,12-10-2026 09:43:47,12-10-2026 09:43:47,0.311s,PASSED
+,,,,,,,
+Test Cases/TC_Register_New_Account,Chrome 155.0.8059.40,,,12-10-2026 09:43:47,12-10-2026 09:44:11,23.729s,FAILED
+"DATA BINDING - {""zip"":""55111"",""country"":""Indonesia"",""firstname"":""Rina"",""enable_mybanner"":""true"",""repeat_password"":""Secret123"",""address2"":""Blok U"",""city"":""Yogyakarta"",""address1"":""Jl. Malioboro"",""language"":""japanese"",""enable_mylist"":""true"",""lastname"":""Melati"",""password"":""Secret123"",""ExpectedResult"":""Failed"",""phone"":""0855667788"",""state"":""DIY"",""category"":""DOGS"",""email"":""email-salah-format"",""username"":""jehan05""}",,,,,,,
+"openBrowser("""")",Chrome 155.0.8059.40,,,12-10-2026 09:43:47,12-10-2026 09:43:48,1.102s,PASSED
+navigateToUrl(base_url),Chrome 155.0.8059.40,,,12-10-2026 09:43:48,12-10-2026 09:43:50,1.587s,PASSED
+"click(findTestObject(""page_Home/btn_Sign_in""))",Chrome 155.0.8059.40,,,12-10-2026 09:43:50,12-10-2026 09:43:51,0.729s,PASSED
+"click(findTestObject(""page_Sign_in/btn_Sign_up""))",Chrome 155.0.8059.40,,,12-10-2026 09:43:51,12-10-2026 09:43:52,0.980s,PASSED
+"setText(findTestObject(""page_Sign_up/input_UserID""), username)",Chrome 155.0.8059.40,,,12-10-2026 09:43:52,12-10-2026 09:43:53,1.023s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Newpassword""), password)",Chrome 155.0.8059.40,,,12-10-2026 09:43:53,12-10-2026 09:43:53,0.854s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Repeat_password""), repeat_password)",Chrome 155.0.8059.40,,,12-10-2026 09:43:53,12-10-2026 09:43:54,0.777s,PASSED
+"setText(findTestObject(""page_Sign_up/input_First_name""), firstname)",Chrome 155.0.8059.40,,,12-10-2026 09:43:54,12-10-2026 09:43:55,0.857s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Last_name""), lastname)",Chrome 155.0.8059.40,,,12-10-2026 09:43:55,12-10-2026 09:43:56,0.826s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Email""), email)",Chrome 155.0.8059.40,,,12-10-2026 09:43:56,12-10-2026 09:43:57,0.787s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Phone""), phone)",Chrome 155.0.8059.40,,,12-10-2026 09:43:57,12-10-2026 09:43:58,0.817s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Address_1""), address1)",Chrome 155.0.8059.40,,,12-10-2026 09:43:58,12-10-2026 09:43:58,0.796s,PASSED
+if (address2),Chrome 155.0.8059.40,,,12-10-2026 09:43:58,12-10-2026 09:43:59,0.817s,PASSED
+"setText(findTestObject(""page_Sign_up/input_City""), city)",Chrome 155.0.8059.40,,,12-10-2026 09:43:59,12-10-2026 09:44:00,0.846s,PASSED
+"setText(findTestObject(""page_Sign_up/input_State""), state)",Chrome 155.0.8059.40,,,12-10-2026 09:44:00,12-10-2026 09:44:01,0.819s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Zip""), zip)",Chrome 155.0.8059.40,,,12-10-2026 09:44:01,12-10-2026 09:44:02,0.795s,PASSED
+"setText(findTestObject(""page_Sign_up/input_Country""), country)",Chrome 155.0.8059.40,,,12-10-2026 09:44:02,12-10-2026 09:44:02,0.797s,PASSED
+"selectOptionByLabel(findTestObject(""page_Sign_up/select_Language_preference""), language, false)",Chrome 155.0.8059.40,,,12-10-2026 09:44:02,12-10-2026 09:44:03,0.651s,PASSED
+"selectOptionByLabel(findTestObject(""page_Sign_up/select_Favourite_category""), category, false)",Chrome 155.0.8059.40,,,12-10-2026 09:44:03,12-10-2026 09:44:04,0.585s,PASSED
+if (enable_mylist.toBoolean()),Chrome 155.0.8059.40,,,12-10-2026 09:44:04,12-10-2026 09:44:04,0.437s,PASSED
+if (enable_mybanner.toBoolean()),Chrome 155.0.8059.40,,,12-10-2026 09:44:04,12-10-2026 09:44:04,0.402s,PASSED
+"click(findTestObject(""page_Sign_up/btn_Save_account""))",Chrome 155.0.8059.40,,,12-10-2026 09:44:05,12-10-2026 09:44:05,0.936s,PASSED
+"if (ExpectedResult == ""Success"")",Chrome 155.0.8059.40,,,12-10-2026 09:44:05,12-10-2026 09:44:05,0.002s,PASSED
+else,Chrome 155.0.8059.40,,,12-10-2026 09:44:05,12-10-2026 09:44:11,5.418s,FAILED

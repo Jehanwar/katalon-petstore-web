@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Web_Regression" time="63.38" tests="5" failures="1" errors="0">
+   <testsuite name="TS_Web_Regression" tests="5" failures="1" errors="0" time="63.38" skipped="0" timestamp="2026-10-12T08:30:21.398Z" hostname="djeha - Jehan" id="Test Suites/TS_Web_Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261012_153015\\TS_Web_Regression\\20261012_153015"/>
+         <property name="logFiles" value="C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261012_153015\\TS_Web_Regression\\20261012_153015\\console0.log, C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261012_153015\\TS_Web_Regression\\20261012_153015\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261012_153015\\TS_Web_Regression\\20261012_153015\\1791793849207.png"/>
+         <property name="hostName" value="djeha - Jehan"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.2.0"/>
+         <property name="browser" value="Chrome 155.0.8059.40"/>
+         <property name="userFullName" value="Hans Anwar"/>
+         <property name="hostAddress" value="172.21.138.206"/>
+         <property name="sessionId" value="d1a2dd3f233d3d80d6231a802f553e24"/>
+         <property name="projectName" value="FinalProject_AfterOffice"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_01_Register_New_Account" time="26.999" classname="Test Cases/TC_01_Register_New_Account" status="FAILED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) usern...":"","(Default) passw...":"","(Default) first...":"","(Default) email":"","(Default) city":"","(Default) lastn...":"","(Default) addre...":"","(Default) Expec...":"","(Default) count...":"","(Default) repea...":"","(Default) enabl...":"false","(Default) state":"","(Default) zip":"","(Default) categ...":"","(Default) langu...":"","(Default) phone":""}]]></property>
+         </properties>
+         <failure type="FAILED" message="Test Cases/TC_01_Register_New_Account FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '' of object 'Object Repository/page_Sign_up/select_Language_preference' &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1331)&#xa;	at TC_01_Register_New_Account.run(TC_01_Register_New_Account:56)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1791793815253.run(TempTestSuite1791793815253.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with text: &#xa;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#xa;Build info: version: '4.28.1', revision: '73f5ad48a2'&#xa;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'&#xa;Driver info: driver.version: unknown&#xa;	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:167)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:321)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[12-10-2026T15:30:22 - [TEST_CASE][FAILED] - Test Cases/TC_01_Register_New_Account: Test Cases/TC_01_Register_New_Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '' of object 'Object Repository/page_Sign_up/select_Language_preference' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1331)
+	at TC_01_Register_New_Account.run(TC_01_Register_New_Account:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791793815253.run(TempTestSuite1791793815253.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:167)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:321)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+
+12-10-2026T15:30:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-10-2026T15:30:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-10-2026T15:30:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-10-2026T15:30:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-10-2026T15:30:29 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:30:35 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:30:35 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Sign_in")): Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T15:30:36 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T15:30:36 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_in/btn_Sign_up")): Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+12-10-2026T15:30:37 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+12-10-2026T15:30:37 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_UserID"), username): Text '' is set on object 'Object Repository/page_Sign_up/input_UserID'
+
+12-10-2026T15:30:38 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_Sign_up/input_UserID'
+
+12-10-2026T15:30:38 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Newpassword"), password): Text '' is set on object 'Object Repository/page_Sign_up/input_Newpassword'
+
+12-10-2026T15:30:39 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_Sign_up/input_Newpassword'
+
+12-10-2026T15:30:39 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Repeat_password"), repeat_password): Text '' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+12-10-2026T15:30:40 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+12-10-2026T15:30:40 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_First_name"), firstname): Text '' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+12-10-2026T15:30:41 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+12-10-2026T15:30:41 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Last_name"), lastname): Text '' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+12-10-2026T15:30:42 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+12-10-2026T15:30:42 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Email"), email): Text '' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+12-10-2026T15:30:43 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+12-10-2026T15:30:43 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Phone"), phone): Text '' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+12-10-2026T15:30:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+12-10-2026T15:30:44 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_1"), address1): Text '' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+12-10-2026T15:30:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+12-10-2026T15:30:44 - [TEST_STEP][PASSED] - if (address2): null
+
+12-10-2026T15:30:44 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_City"), city): Text '' is set on object 'Object Repository/page_Sign_up/input_City'
+
+12-10-2026T15:30:45 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_Sign_up/input_City'
+
+12-10-2026T15:30:45 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_State"), state): Text '' is set on object 'Object Repository/page_Sign_up/input_State'
+
+12-10-2026T15:30:46 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_Sign_up/input_State'
+
+12-10-2026T15:30:46 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Zip"), zip): Text '' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+12-10-2026T15:30:47 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+12-10-2026T15:30:47 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Country"), country): Text '' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+12-10-2026T15:30:48 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+12-10-2026T15:30:48 - [TEST_STEP][FAILED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Language_preference"), language, false): Unable to select option by label '' of object 'Object Repository/page_Sign_up/select_Language_preference'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '' of object 'Object Repository/page_Sign_up/select_Language_preference' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1331)
+	at TC_01_Register_New_Account.run(TC_01_Register_New_Account:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791793815253.run(TempTestSuite1791793815253.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:167)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:321)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1331)
+	at Script1790903750370.run(Script1790903750370.groovy:56)
+	... 15 more
+)
+
+12-10-2026T15:30:49 - [MESSAGE][FAILED] - Unable to select option by label '' of object 'Object Repository/page_Sign_up/select_Language_preference'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '' of object 'Object Repository/page_Sign_up/select_Language_preference' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1331)
+	at TC_01_Register_New_Account.run(TC_01_Register_New_Account:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791793815253.run(TempTestSuite1791793815253.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:167)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:321)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1331)
+	at Script1790903750370.run(Script1790903750370.groovy:56)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261012_153015\\TS_Web_Regression\\20261012_153015\\1791793849207.png]]]]></system-out>
+         <system-err><![CDATA[12-10-2026T15:30:22 - [TEST_CASE][FAILED] - Test Cases/TC_01_Register_New_Account: Test Cases/TC_01_Register_New_Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label '' of object 'Object Repository/page_Sign_up/select_Language_preference' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1331)
+	at TC_01_Register_New_Account.run(TC_01_Register_New_Account:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791793815253.run(TempTestSuite1791793815253.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:167)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.selectOrDeselectOptionsByLabel(WebUiCommonHelper.java:321)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_02_Login_Success" time="9.572" classname="Test Cases/TC_02_Login_Success" status="PASSED">
+         <system-out><![CDATA[12-10-2026T15:30:49 - [TEST_CASE][PASSED] - Test Cases/TC_02_Login_Success: Test Cases/TC_02_Login_Success
+
+12-10-2026T15:30:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-10-2026T15:30:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-10-2026T15:30:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-10-2026T15:30:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-10-2026T15:30:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-10-2026T15:30:52 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:30:54 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:30:54 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Sign_in")): Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T15:30:55 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T15:30:55 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_in/input_Username"), valid_username): Text 'j2ee' is set on object 'Object Repository/page_Sign_in/input_Username'
+
+12-10-2026T15:30:56 - [MESSAGE][PASSED] - Text 'j2ee' is set on object 'Object Repository/page_Sign_in/input_Username'
+
+12-10-2026T15:30:56 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_in/input_Password"), valid_password): Text 'j2ee' is set on object 'Object Repository/page_Sign_in/input_Password'
+
+12-10-2026T15:30:56 - [MESSAGE][PASSED] - Text 'j2ee' is set on object 'Object Repository/page_Sign_in/input_Password'
+
+12-10-2026T15:30:56 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_in/btn_Login")): Object: 'Object Repository/page_Sign_in/btn_Login' is clicked on
+
+12-10-2026T15:30:58 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_in/btn_Login' is clicked on
+
+12-10-2026T15:30:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("page_Home/btn_Sign_out"), 5): Object 'Object Repository/page_Home/btn_Sign_out' is present
+
+12-10-2026T15:30:58 - [MESSAGE][PASSED] - Object 'Object Repository/page_Home/btn_Sign_out' is present
+
+12-10-2026T15:30:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-10-2026T15:30:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_03_Login_Failed" time="8.06" classname="Test Cases/TC_03_Login_Failed" status="PASSED">
+         <system-out><![CDATA[12-10-2026T15:30:59 - [TEST_CASE][PASSED] - Test Cases/TC_03_Login_Failed: Test Cases/TC_03_Login_Failed
+
+12-10-2026T15:30:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-10-2026T15:30:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-10-2026T15:30:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-10-2026T15:31:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-10-2026T15:31:00 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:31:02 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:31:02 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Sign_in")): Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T15:31:03 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T15:31:03 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_in/input_Username"), valid_username): Text 'j2ee' is set on object 'Object Repository/page_Sign_in/input_Username'
+
+12-10-2026T15:31:04 - [MESSAGE][PASSED] - Text 'j2ee' is set on object 'Object Repository/page_Sign_in/input_Username'
+
+12-10-2026T15:31:04 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_in/input_Password"), "PasswordSalah123"): Text 'PasswordSalah123' is set on object 'Object Repository/page_Sign_in/input_Password'
+
+12-10-2026T15:31:05 - [MESSAGE][PASSED] - Text 'PasswordSalah123' is set on object 'Object Repository/page_Sign_in/input_Password'
+
+12-10-2026T15:31:05 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_in/btn_Login")): Object: 'Object Repository/page_Sign_in/btn_Login' is clicked on
+
+12-10-2026T15:31:06 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_in/btn_Login' is clicked on
+
+12-10-2026T15:31:06 - [TEST_STEP][PASSED] - verifyTextPresent("Invalid username or password", false): Text 'Invalid username or password' is present on page 
+
+12-10-2026T15:31:06 - [MESSAGE][PASSED] - Text 'Invalid username or password' is present on page 
+
+12-10-2026T15:31:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-10-2026T15:31:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_04_Search_Product" time="7.465" classname="Test Cases/TC_04_Search_Product" status="PASSED">
+         <system-out><![CDATA[12-10-2026T15:31:07 - [TEST_CASE][PASSED] - Test Cases/TC_04_Search_Product: Test Cases/TC_04_Search_Product
+
+12-10-2026T15:31:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-10-2026T15:31:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-10-2026T15:31:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-10-2026T15:31:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-10-2026T15:31:08 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:31:10 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:31:10 - [TEST_STEP][PASSED] - setText(findTestObject("page_Home/input_Search"), "fish"): Text 'fish' is set on object 'Object Repository/page_Home/input_Search'
+
+12-10-2026T15:31:11 - [MESSAGE][PASSED] - Text 'fish' is set on object 'Object Repository/page_Home/input_Search'
+
+12-10-2026T15:31:11 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Search")): Object: 'Object Repository/page_Home/btn_Search' is clicked on
+
+12-10-2026T15:31:13 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Search' is clicked on
+
+12-10-2026T15:31:13 - [TEST_STEP][PASSED] - verifyTextPresent("Goldfish", false): Text 'Goldfish' is present on page 
+
+12-10-2026T15:31:14 - [MESSAGE][PASSED] - Text 'Goldfish' is present on page 
+
+12-10-2026T15:31:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-10-2026T15:31:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_05_Add_Product_To_Cart" time="10.235" classname="Test Cases/TC_05_Add_Product_To_Cart" status="PASSED">
+         <system-out><![CDATA[12-10-2026T15:31:14 - [TEST_CASE][PASSED] - Test Cases/TC_05_Add_Product_To_Cart: Test Cases/TC_05_Add_Product_To_Cart
+
+12-10-2026T15:31:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-10-2026T15:31:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-10-2026T15:31:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-10-2026T15:31:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-10-2026T15:31:16 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:31:18 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:31:18 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/link_Category_Fish")): Object: 'Object Repository/page_Home/link_Category_Fish' is clicked on
+
+12-10-2026T15:31:19 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/link_Category_Fish' is clicked on
+
+12-10-2026T15:31:19 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/link_Product_Angelfish")): Object: 'Object Repository/page_Home/link_Product_Angelfish' is clicked on
+
+12-10-2026T15:31:21 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/link_Product_Angelfish' is clicked on
+
+12-10-2026T15:31:22 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Add_to_cart")): Object: 'Object Repository/page_Home/btn_Add_to_cart' is clicked on
+
+12-10-2026T15:31:23 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Add_to_cart' is clicked on
+
+12-10-2026T15:31:23 - [TEST_STEP][PASSED] - verifyTextPresent("Shopping Cart", false): Text 'Shopping Cart' is present on page 
+
+12-10-2026T15:31:24 - [MESSAGE][PASSED] - Text 'Shopping Cart' is present on page 
+
+12-10-2026T15:31:24 - [TEST_STEP][PASSED] - verifyTextPresent("EST-1", false): Text 'EST-1' is present on page 
+
+12-10-2026T15:31:24 - [MESSAGE][PASSED] - Text 'EST-1' is present on page 
+
+12-10-2026T15:31:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-10-2026T15:31:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-10-2026T15:30:21 - [TEST_SUITE][FAILED] - TS_Web_Regression: null]]></system-out>
+      <system-err><![CDATA[12-10-2026T15:30:21 - [TEST_SUITE][FAILED] - TS_Web_Regression: null]]></system-err>
+   </testsuite>
+</testsuites>

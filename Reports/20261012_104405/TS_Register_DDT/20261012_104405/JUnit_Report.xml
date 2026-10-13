@@ -1,0 +1,1343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Register_DDT" time="116.102" tests="6" failures="4" errors="0">
+   <testsuite name="TS_Register_DDT" tests="6" failures="4" errors="0" time="116.102" skipped="0" timestamp="2026-10-12T03:44:09.247Z" hostname="djeha - Jehan" id="Test Suites/TS_Register_DDT">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261012_104405\\TS_Register_DDT\\20261012_104405"/>
+         <property name="logFiles" value="C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261012_104405\\TS_Register_DDT\\20261012_104405\\console0.log, C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261012_104405\\TS_Register_DDT\\20261012_104405\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261012_104405\\TS_Register_DDT\\20261012_104405\\1791776714786.png, C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261012_104405\\TS_Register_DDT\\20261012_104405\\1791776714989.png, C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261012_104405\\TS_Register_DDT\\20261012_104405\\1791776750647.png, C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261012_104405\\TS_Register_DDT\\20261012_104405\\1791776750788.png, C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261012_104405\\TS_Register_DDT\\20261012_104405\\1791776755005.png, C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261012_104405\\TS_Register_DDT\\20261012_104405\\1791776765189.png"/>
+         <property name="hostName" value="djeha - Jehan"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.2.0"/>
+         <property name="browser" value="Chrome 155.0.8059.40"/>
+         <property name="userFullName" value="Hans Anwar"/>
+         <property name="hostAddress" value="172.21.138.206"/>
+         <property name="sessionId" value="3925c7543934da90bbd0191ed1830947"/>
+         <property name="projectName" value="FinalProject_AfterOffice"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_Register_New_Account" time="23.363" classname="Test Cases/TC_Register_New_Account" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"zip":"12345","country":"Indonesia","firstname":"Jehan","enable_mybanner":"true","repeat_password":"Secret123","address2":"Blok M","city":"Jakarta","address1":"Jl. Merdeka No.1","language":"english","enable_mylist":"true","lastname":"Anwar","password":"Secret123","ExpectedResult":"Success","phone":"0812345678","state":"DKI","category":"DOGS","email":"jehan@email.com","username":"jehan_master99"}]]></property>
+         </properties>
+         <system-out><![CDATA[12-10-2026T10:44:10 - [TEST_CASE][PASSED] - Test Cases/TC_Register_New_Account: Test Cases/TC_Register_New_Account
+
+12-10-2026T10:44:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-10-2026T10:44:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-10-2026T10:44:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-10-2026T10:44:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-10-2026T10:44:14 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T10:44:16 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T10:44:16 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Sign_in")): Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T10:44:17 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T10:44:17 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_in/btn_Sign_up")): Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+12-10-2026T10:44:18 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+12-10-2026T10:44:18 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_UserID"), username): Text 'jehan_master99' is set on object 'Object Repository/page_Sign_up/input_UserID'
+
+12-10-2026T10:44:19 - [MESSAGE][PASSED] - Text 'jehan_master99' is set on object 'Object Repository/page_Sign_up/input_UserID'
+
+12-10-2026T10:44:19 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Newpassword"), password): Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Newpassword'
+
+12-10-2026T10:44:20 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Newpassword'
+
+12-10-2026T10:44:20 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Repeat_password"), repeat_password): Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+12-10-2026T10:44:21 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+12-10-2026T10:44:21 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_First_name"), firstname): Text 'Jehan' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+12-10-2026T10:44:21 - [MESSAGE][PASSED] - Text 'Jehan' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+12-10-2026T10:44:21 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Last_name"), lastname): Text 'Anwar' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+12-10-2026T10:44:22 - [MESSAGE][PASSED] - Text 'Anwar' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+12-10-2026T10:44:22 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Email"), email): Text 'jehan@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+12-10-2026T10:44:23 - [MESSAGE][PASSED] - Text 'jehan@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+12-10-2026T10:44:23 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Phone"), phone): Text '0812345678' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+12-10-2026T10:44:24 - [MESSAGE][PASSED] - Text '0812345678' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+12-10-2026T10:44:24 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_1"), address1): Text 'Jl. Merdeka No.1' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+12-10-2026T10:44:25 - [MESSAGE][PASSED] - Text 'Jl. Merdeka No.1' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+12-10-2026T10:44:25 - [TEST_STEP][PASSED] - if (address2): Text 'Blok M' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+12-10-2026T10:44:25 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_2"), address2): Text 'Blok M' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+12-10-2026T10:44:26 - [MESSAGE][PASSED] - Text 'Blok M' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+12-10-2026T10:44:26 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_City"), city): Text 'Jakarta' is set on object 'Object Repository/page_Sign_up/input_City'
+
+12-10-2026T10:44:27 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/page_Sign_up/input_City'
+
+12-10-2026T10:44:27 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_State"), state): Text 'DKI' is set on object 'Object Repository/page_Sign_up/input_State'
+
+12-10-2026T10:44:28 - [MESSAGE][PASSED] - Text 'DKI' is set on object 'Object Repository/page_Sign_up/input_State'
+
+12-10-2026T10:44:28 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Zip"), zip): Text '12345' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+12-10-2026T10:44:28 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+12-10-2026T10:44:28 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Country"), country): Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+12-10-2026T10:44:29 - [MESSAGE][PASSED] - Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+12-10-2026T10:44:29 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Language_preference"), language, false): All options with label 'english' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+12-10-2026T10:44:30 - [MESSAGE][PASSED] - All options with label 'english' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+12-10-2026T10:44:30 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Favourite_category"), category, false): All options with label 'DOGS' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+12-10-2026T10:44:30 - [MESSAGE][PASSED] - All options with label 'DOGS' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+12-10-2026T10:44:30 - [TEST_STEP][PASSED] - if (enable_mylist.toBoolean()): Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+12-10-2026T10:44:30 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mylist")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+12-10-2026T10:44:31 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+12-10-2026T10:44:31 - [TEST_STEP][PASSED] - if (enable_mybanner.toBoolean()): Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+12-10-2026T10:44:31 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mybanner")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+12-10-2026T10:44:31 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+12-10-2026T10:44:31 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_up/btn_Save_account")): Object: 'Object Repository/page_Sign_up/btn_Save_account' is clicked on
+
+12-10-2026T10:44:32 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_up/btn_Save_account' is clicked on
+
+12-10-2026T10:44:32 - [TEST_STEP][PASSED] - if (ExpectedResult == "Success"): Object 'Object Repository/page_Home/btn_Sign_in' is present
+
+12-10-2026T10:44:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("page_Home/btn_Sign_in"), 5): Object 'Object Repository/page_Home/btn_Sign_in' is present
+
+12-10-2026T10:44:33 - [MESSAGE][PASSED] - Object 'Object Repository/page_Home/btn_Sign_in' is present
+
+12-10-2026T10:44:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-10-2026T10:44:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Register_New_Account" time="18.352" classname="Test Cases/TC_Register_New_Account" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"zip":"40111","country":"Indonesia","firstname":"Budi","enable_mybanner":"false","repeat_password":"Secret123","city":"Bandung","address1":"Jl. Sudirman No.5","(Default) addre...":"","language":"japanese","enable_mylist":"true","lastname":"Santoso","password":"Secret123","ExpectedResult":"Success","phone":"0898765432","state":"Jabar","category":"CATS","email":"budi@email.com","username":"jehan_test299"}]]></property>
+         </properties>
+         <system-out><![CDATA[12-10-2026T10:44:33 - [TEST_CASE][PASSED] - Test Cases/TC_Register_New_Account: Test Cases/TC_Register_New_Account
+
+12-10-2026T10:44:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-10-2026T10:44:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-10-2026T10:44:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-10-2026T10:44:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-10-2026T10:44:34 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T10:44:36 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T10:44:36 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Sign_in")): Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T10:44:37 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T10:44:37 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_in/btn_Sign_up")): Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+12-10-2026T10:44:38 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+12-10-2026T10:44:38 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_UserID"), username): Text 'jehan_test299' is set on object 'Object Repository/page_Sign_up/input_UserID'
+
+12-10-2026T10:44:39 - [MESSAGE][PASSED] - Text 'jehan_test299' is set on object 'Object Repository/page_Sign_up/input_UserID'
+
+12-10-2026T10:44:39 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Newpassword"), password): Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Newpassword'
+
+12-10-2026T10:44:40 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Newpassword'
+
+12-10-2026T10:44:40 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Repeat_password"), repeat_password): Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+12-10-2026T10:44:40 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+12-10-2026T10:44:40 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_First_name"), firstname): Text 'Budi' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+12-10-2026T10:44:41 - [MESSAGE][PASSED] - Text 'Budi' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+12-10-2026T10:44:41 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Last_name"), lastname): Text 'Santoso' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+12-10-2026T10:44:42 - [MESSAGE][PASSED] - Text 'Santoso' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+12-10-2026T10:44:42 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Email"), email): Text 'budi@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+12-10-2026T10:44:43 - [MESSAGE][PASSED] - Text 'budi@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+12-10-2026T10:44:43 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Phone"), phone): Text '0898765432' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+12-10-2026T10:44:44 - [MESSAGE][PASSED] - Text '0898765432' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+12-10-2026T10:44:44 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_1"), address1): Text 'Jl. Sudirman No.5' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+12-10-2026T10:44:45 - [MESSAGE][PASSED] - Text 'Jl. Sudirman No.5' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+12-10-2026T10:44:45 - [TEST_STEP][PASSED] - if (address2): null
+
+12-10-2026T10:44:45 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_City"), city): Text 'Bandung' is set on object 'Object Repository/page_Sign_up/input_City'
+
+12-10-2026T10:44:46 - [MESSAGE][PASSED] - Text 'Bandung' is set on object 'Object Repository/page_Sign_up/input_City'
+
+12-10-2026T10:44:46 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_State"), state): Text 'Jabar' is set on object 'Object Repository/page_Sign_up/input_State'
+
+12-10-2026T10:44:46 - [MESSAGE][PASSED] - Text 'Jabar' is set on object 'Object Repository/page_Sign_up/input_State'
+
+12-10-2026T10:44:46 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Zip"), zip): Text '40111' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+12-10-2026T10:44:47 - [MESSAGE][PASSED] - Text '40111' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+12-10-2026T10:44:47 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Country"), country): Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+12-10-2026T10:44:48 - [MESSAGE][PASSED] - Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+12-10-2026T10:44:48 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Language_preference"), language, false): All options with label 'japanese' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+12-10-2026T10:44:48 - [MESSAGE][PASSED] - All options with label 'japanese' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+12-10-2026T10:44:48 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Favourite_category"), category, false): All options with label 'CATS' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+12-10-2026T10:44:49 - [MESSAGE][PASSED] - All options with label 'CATS' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+12-10-2026T10:44:49 - [TEST_STEP][PASSED] - if (enable_mylist.toBoolean()): Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+12-10-2026T10:44:49 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mylist")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+12-10-2026T10:44:49 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+12-10-2026T10:44:50 - [TEST_STEP][PASSED] - if (enable_mybanner.toBoolean()): null
+
+12-10-2026T10:44:50 - [TEST_STEP][PASSED] - else: Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is un-checked
+
+12-10-2026T10:44:50 - [TEST_STEP][PASSED] - uncheck(findTestObject("page_Sign_up/checkbox_Enable_mybanner")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is un-checked
+
+12-10-2026T10:44:50 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is un-checked
+
+12-10-2026T10:44:50 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_up/btn_Save_account")): Object: 'Object Repository/page_Sign_up/btn_Save_account' is clicked on
+
+12-10-2026T10:44:51 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_up/btn_Save_account' is clicked on
+
+12-10-2026T10:44:51 - [TEST_STEP][PASSED] - if (ExpectedResult == "Success"): Object 'Object Repository/page_Home/btn_Sign_in' is present
+
+12-10-2026T10:44:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("page_Home/btn_Sign_in"), 5): Object 'Object Repository/page_Home/btn_Sign_in' is present
+
+12-10-2026T10:44:51 - [MESSAGE][PASSED] - Object 'Object Repository/page_Home/btn_Sign_in' is present
+
+12-10-2026T10:44:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-10-2026T10:44:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Register_New_Account" time="22.836" classname="Test Cases/TC_Register_New_Account" status="FAILED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"zip":"12345","country":"Indonesia","firstname":"Jehan","enable_mybanner":"true","repeat_password":"Secret123","address2":"Blok B","city":"Jakarta","address1":"Jl. Merdeka No.1","language":"english","enable_mylist":"false","lastname":"Anwar","password":"Secret123","ExpectedResult":"Failed","phone":"0812345678","state":"DKI","category":"FISH","email":"jehan@email.com","username":"jehan_master99"}]]></property>
+         </properties>
+         <failure type="FAILED" message="Test Cases/TC_Register_New_Account FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/page_Sign_up/btn_Save_account' is present&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)&#xa;	at TC_Register_New_Account.run(TC_Register_New_Account:80)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1791776645293.run(TempTestSuite1791776645293.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' not found&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[12-10-2026T10:44:52 - [TEST_CASE][FAILED] - Test Cases/TC_Register_New_Account: Test Cases/TC_Register_New_Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/page_Sign_up/btn_Save_account' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at TC_Register_New_Account.run(TC_Register_New_Account:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791776645293.run(TempTestSuite1791776645293.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+
+12-10-2026T10:44:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-10-2026T10:44:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-10-2026T10:44:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-10-2026T10:44:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-10-2026T10:44:53 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T10:44:55 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T10:44:55 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Sign_in")): Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T10:44:55 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T10:44:55 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_in/btn_Sign_up")): Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+12-10-2026T10:44:56 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+12-10-2026T10:44:56 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_UserID"), username): Text 'jehan_master99' is set on object 'Object Repository/page_Sign_up/input_UserID'
+
+12-10-2026T10:44:57 - [MESSAGE][PASSED] - Text 'jehan_master99' is set on object 'Object Repository/page_Sign_up/input_UserID'
+
+12-10-2026T10:44:57 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Newpassword"), password): Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Newpassword'
+
+12-10-2026T10:44:58 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Newpassword'
+
+12-10-2026T10:44:58 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Repeat_password"), repeat_password): Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+12-10-2026T10:44:59 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+12-10-2026T10:44:59 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_First_name"), firstname): Text 'Jehan' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+12-10-2026T10:44:59 - [MESSAGE][PASSED] - Text 'Jehan' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+12-10-2026T10:44:59 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Last_name"), lastname): Text 'Anwar' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+12-10-2026T10:45:00 - [MESSAGE][PASSED] - Text 'Anwar' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+12-10-2026T10:45:00 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Email"), email): Text 'jehan@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+12-10-2026T10:45:01 - [MESSAGE][PASSED] - Text 'jehan@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+12-10-2026T10:45:01 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Phone"), phone): Text '0812345678' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+12-10-2026T10:45:02 - [MESSAGE][PASSED] - Text '0812345678' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+12-10-2026T10:45:02 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_1"), address1): Text 'Jl. Merdeka No.1' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+12-10-2026T10:45:03 - [MESSAGE][PASSED] - Text 'Jl. Merdeka No.1' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+12-10-2026T10:45:03 - [TEST_STEP][PASSED] - if (address2): Text 'Blok B' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+12-10-2026T10:45:03 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_2"), address2): Text 'Blok B' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+12-10-2026T10:45:03 - [MESSAGE][PASSED] - Text 'Blok B' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+12-10-2026T10:45:03 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_City"), city): Text 'Jakarta' is set on object 'Object Repository/page_Sign_up/input_City'
+
+12-10-2026T10:45:04 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/page_Sign_up/input_City'
+
+12-10-2026T10:45:04 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_State"), state): Text 'DKI' is set on object 'Object Repository/page_Sign_up/input_State'
+
+12-10-2026T10:45:05 - [MESSAGE][PASSED] - Text 'DKI' is set on object 'Object Repository/page_Sign_up/input_State'
+
+12-10-2026T10:45:05 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Zip"), zip): Text '12345' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+12-10-2026T10:45:06 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+12-10-2026T10:45:06 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Country"), country): Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+12-10-2026T10:45:06 - [MESSAGE][PASSED] - Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+12-10-2026T10:45:06 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Language_preference"), language, false): All options with label 'english' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+12-10-2026T10:45:07 - [MESSAGE][PASSED] - All options with label 'english' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+12-10-2026T10:45:07 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Favourite_category"), category, false): All options with label 'FISH' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+12-10-2026T10:45:08 - [MESSAGE][PASSED] - All options with label 'FISH' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+12-10-2026T10:45:08 - [TEST_STEP][PASSED] - if (enable_mylist.toBoolean()): null
+
+12-10-2026T10:45:08 - [TEST_STEP][PASSED] - else: Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is un-checked
+
+12-10-2026T10:45:08 - [TEST_STEP][PASSED] - uncheck(findTestObject("page_Sign_up/checkbox_Enable_mylist")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is un-checked
+
+12-10-2026T10:45:08 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is un-checked
+
+12-10-2026T10:45:08 - [TEST_STEP][PASSED] - if (enable_mybanner.toBoolean()): Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+12-10-2026T10:45:08 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mybanner")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+12-10-2026T10:45:08 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+12-10-2026T10:45:08 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_up/btn_Save_account")): Object: 'Object Repository/page_Sign_up/btn_Save_account' is clicked on
+
+12-10-2026T10:45:09 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_up/btn_Save_account' is clicked on
+
+12-10-2026T10:45:09 - [TEST_STEP][PASSED] - if (ExpectedResult == "Success"): null
+
+12-10-2026T10:45:09 - [TEST_STEP][FAILED] - else: Unable to verify object 'Object Repository/page_Sign_up/btn_Save_account' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/page_Sign_up/btn_Save_account' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at TC_Register_New_Account.run(TC_Register_New_Account:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791776645293.run(TempTestSuite1791776645293.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+)
+
+12-10-2026T10:45:09 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("page_Sign_up/btn_Save_account"), 5): Unable to verify object 'Object Repository/page_Sign_up/btn_Save_account' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/page_Sign_up/btn_Save_account' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at TC_Register_New_Account.run(TC_Register_New_Account:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791776645293.run(TempTestSuite1791776645293.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+)
+
+12-10-2026T10:45:14 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at TC_Register_New_Account.run(TC_Register_New_Account:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791776645293.run(TempTestSuite1791776645293.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261012_104405\\TS_Register_DDT\\20261012_104405\\1791776714786.png]]
+
+12-10-2026T10:45:15 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/page_Sign_up/btn_Save_account' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/page_Sign_up/btn_Save_account' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at TC_Register_New_Account.run(TC_Register_New_Account:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791776645293.run(TempTestSuite1791776645293.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+)
+[[ATTACHMENT|C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261012_104405\\TS_Register_DDT\\20261012_104405\\1791776714989.png]]]]></system-out>
+         <system-err><![CDATA[12-10-2026T10:44:52 - [TEST_CASE][FAILED] - Test Cases/TC_Register_New_Account: Test Cases/TC_Register_New_Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/page_Sign_up/btn_Save_account' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at TC_Register_New_Account.run(TC_Register_New_Account:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791776645293.run(TempTestSuite1791776645293.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Register_New_Account" time="35.737" classname="Test Cases/TC_Register_New_Account" status="FAILED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"zip":"40111","country":"Indonesia","firstname":"Jehan","enable_mybanner":"true","(Default) passw...":"","repeat_password":"WrongPass","address2":"Blok D","city":"Bandung","address1":"Jl. Sudirman","language":"japanese","enable_mylist":"true","lastname":"Anwar","ExpectedResult":"Failed","phone":"0812345678","state":"Jabar","category":"REPTILES","email":"jehan2@email.com","username":"jehan0299"}]]></property>
+         </properties>
+         <failure type="FAILED" message="Test Cases/TC_Register_New_Account FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/page_Sign_up/btn_Save_account' is present&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)&#xa;	at TC_Register_New_Account.run(TC_Register_New_Account:80)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1791776645293.run(TempTestSuite1791776645293.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' not found&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[12-10-2026T10:45:15 - [TEST_CASE][FAILED] - Test Cases/TC_Register_New_Account: Test Cases/TC_Register_New_Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/page_Sign_up/btn_Save_account' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at TC_Register_New_Account.run(TC_Register_New_Account:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791776645293.run(TempTestSuite1791776645293.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+
+12-10-2026T10:45:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-10-2026T10:45:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-10-2026T10:45:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-10-2026T10:45:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-10-2026T10:45:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-10-2026T10:45:16 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T10:45:18 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T10:45:18 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Sign_in")): Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T10:45:19 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T10:45:19 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_in/btn_Sign_up")): Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+12-10-2026T10:45:20 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+12-10-2026T10:45:20 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_UserID"), username): Text 'jehan0299' is set on object 'Object Repository/page_Sign_up/input_UserID'
+
+12-10-2026T10:45:21 - [MESSAGE][PASSED] - Text 'jehan0299' is set on object 'Object Repository/page_Sign_up/input_UserID'
+
+12-10-2026T10:45:21 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Newpassword"), password): Text '' is set on object 'Object Repository/page_Sign_up/input_Newpassword'
+
+12-10-2026T10:45:22 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_Sign_up/input_Newpassword'
+
+12-10-2026T10:45:22 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Repeat_password"), repeat_password): Text 'WrongPass' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+12-10-2026T10:45:22 - [MESSAGE][PASSED] - Text 'WrongPass' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+12-10-2026T10:45:22 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_First_name"), firstname): Text 'Jehan' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+12-10-2026T10:45:23 - [MESSAGE][PASSED] - Text 'Jehan' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+12-10-2026T10:45:23 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Last_name"), lastname): Text 'Anwar' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+12-10-2026T10:45:24 - [MESSAGE][PASSED] - Text 'Anwar' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+12-10-2026T10:45:24 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Email"), email): Text 'jehan2@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+12-10-2026T10:45:25 - [MESSAGE][PASSED] - Text 'jehan2@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+12-10-2026T10:45:25 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Phone"), phone): Text '0812345678' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+12-10-2026T10:45:26 - [MESSAGE][PASSED] - Text '0812345678' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+12-10-2026T10:45:26 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_1"), address1): Text 'Jl. Sudirman' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+12-10-2026T10:45:26 - [MESSAGE][PASSED] - Text 'Jl. Sudirman' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+12-10-2026T10:45:26 - [TEST_STEP][PASSED] - if (address2): Text 'Blok D' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+12-10-2026T10:45:26 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_2"), address2): Text 'Blok D' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+12-10-2026T10:45:27 - [MESSAGE][PASSED] - Text 'Blok D' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+12-10-2026T10:45:27 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_City"), city): Text 'Bandung' is set on object 'Object Repository/page_Sign_up/input_City'
+
+12-10-2026T10:45:28 - [MESSAGE][PASSED] - Text 'Bandung' is set on object 'Object Repository/page_Sign_up/input_City'
+
+12-10-2026T10:45:28 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_State"), state): Text 'Jabar' is set on object 'Object Repository/page_Sign_up/input_State'
+
+12-10-2026T10:45:29 - [MESSAGE][PASSED] - Text 'Jabar' is set on object 'Object Repository/page_Sign_up/input_State'
+
+12-10-2026T10:45:29 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Zip"), zip): Text '40111' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+12-10-2026T10:45:30 - [MESSAGE][PASSED] - Text '40111' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+12-10-2026T10:45:30 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Country"), country): Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+12-10-2026T10:45:30 - [MESSAGE][PASSED] - Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+12-10-2026T10:45:30 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Language_preference"), language, false): All options with label 'japanese' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+12-10-2026T10:45:31 - [MESSAGE][PASSED] - All options with label 'japanese' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+12-10-2026T10:45:31 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Favourite_category"), category, false): All options with label 'REPTILES' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+12-10-2026T10:45:32 - [MESSAGE][PASSED] - All options with label 'REPTILES' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+12-10-2026T10:45:32 - [TEST_STEP][PASSED] - if (enable_mylist.toBoolean()): Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+12-10-2026T10:45:32 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mylist")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+12-10-2026T10:45:32 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+12-10-2026T10:45:32 - [TEST_STEP][PASSED] - if (enable_mybanner.toBoolean()): Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+12-10-2026T10:45:32 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mybanner")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+12-10-2026T10:45:32 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+12-10-2026T10:45:32 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_up/btn_Save_account")): Object: 'Object Repository/page_Sign_up/btn_Save_account' is clicked on
+
+12-10-2026T10:45:45 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_up/btn_Save_account' is clicked on
+
+12-10-2026T10:45:45 - [TEST_STEP][PASSED] - if (ExpectedResult == "Success"): null
+
+12-10-2026T10:45:45 - [TEST_STEP][FAILED] - else: Unable to verify object 'Object Repository/page_Sign_up/btn_Save_account' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/page_Sign_up/btn_Save_account' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at TC_Register_New_Account.run(TC_Register_New_Account:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791776645293.run(TempTestSuite1791776645293.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+)
+
+12-10-2026T10:45:45 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("page_Sign_up/btn_Save_account"), 5): Unable to verify object 'Object Repository/page_Sign_up/btn_Save_account' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/page_Sign_up/btn_Save_account' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at TC_Register_New_Account.run(TC_Register_New_Account:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791776645293.run(TempTestSuite1791776645293.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+)
+
+12-10-2026T10:45:50 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at TC_Register_New_Account.run(TC_Register_New_Account:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791776645293.run(TempTestSuite1791776645293.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261012_104405\\TS_Register_DDT\\20261012_104405\\1791776750647.png]]
+
+12-10-2026T10:45:50 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/page_Sign_up/btn_Save_account' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/page_Sign_up/btn_Save_account' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at TC_Register_New_Account.run(TC_Register_New_Account:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791776645293.run(TempTestSuite1791776645293.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+)
+[[ATTACHMENT|C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261012_104405\\TS_Register_DDT\\20261012_104405\\1791776750788.png]]]]></system-out>
+         <system-err><![CDATA[12-10-2026T10:45:15 - [TEST_CASE][FAILED] - Test Cases/TC_Register_New_Account: Test Cases/TC_Register_New_Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/page_Sign_up/btn_Save_account' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1565)
+	at TC_Register_New_Account.run(TC_Register_New_Account:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791776645293.run(TempTestSuite1791776645293.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Register_New_Account" time="3.893" classname="Test Cases/TC_Register_New_Account" status="FAILED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) usern...":"","zip":"60111","country":"Indonesia","firstname":"Siti","enable_mybanner":"true","repeat_password":"Secret123","address2":"Blok E","city":"Surabaya","address1":"Jl. Ahmad Yani","language":"english","enable_mylist":"true","lastname":"Aminah","password":"Secret123","ExpectedResult":"Failed","phone":"0811223344","state":"Jatim","category":"BIRDS","email":"siti@email.com"}]]></property>
+         </properties>
+         <failure type="FAILED" message="Test Cases/TC_Register_New_Account FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://petstore.octoperf.com/actions/Catalog.action'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)&#xa;	at TC_Register_New_Account.run(TC_Register_New_Account:22)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1791776645293.run(TempTestSuite1791776645293.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED&#xa;  (Session info: chrome=155.0.8059.40)&#xa;Build info: version: '4.28.1', revision: '73f5ad48a2'&#xa;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Command: [ea941a4587a95e31f4d6af85e2818e75, get {url=https://petstore.octoperf.com/actions/Catalog.action}]&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: C:\Users\djeha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51013}, goog:processID: 10936, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51013/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:3896/session..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: ea941a4587a95e31f4d6af85e2818e75&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1090)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)&#xa;	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)&#xa;	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$rPs6m1bY.to(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:84)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[12-10-2026T10:45:51 - [TEST_CASE][FAILED] - Test Cases/TC_Register_New_Account: Test Cases/TC_Register_New_Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://petstore.octoperf.com/actions/Catalog.action'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at TC_Register_New_Account.run(TC_Register_New_Account:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791776645293.run(TempTestSuite1791776645293.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=155.0.8059.40)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [ea941a4587a95e31f4d6af85e2818e75, get {url=https://petstore.octoperf.com/actions/Catalog.action}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: C:\Users\djeha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51013}, goog:processID: 10936, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51013/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:3896/session..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ea941a4587a95e31f4d6af85e2818e75
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1090)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$rPs6m1bY.to(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+
+12-10-2026T10:45:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-10-2026T10:45:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-10-2026T10:45:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-10-2026T10:45:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-10-2026T10:45:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-10-2026T10:45:53 - [TEST_STEP][FAILED] - navigateToUrl(base_url): Unable to navigate to 'https://petstore.octoperf.com/actions/Catalog.action' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://petstore.octoperf.com/actions/Catalog.action'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at TC_Register_New_Account.run(TC_Register_New_Account:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791776645293.run(TempTestSuite1791776645293.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=155.0.8059.40)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [ea941a4587a95e31f4d6af85e2818e75, get {url=https://petstore.octoperf.com/actions/Catalog.action}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: C:\Users\djeha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51013}, goog:processID: 10936, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51013/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:3896/session..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ea941a4587a95e31f4d6af85e2818e75
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1090)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$rPs6m1bY.to(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Script1790903750370.run(Script1790903750370.groovy:22)
+	... 15 more
+)
+
+12-10-2026T10:45:55 - [MESSAGE][FAILED] - Unable to navigate to 'https://petstore.octoperf.com/actions/Catalog.action' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://petstore.octoperf.com/actions/Catalog.action'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at TC_Register_New_Account.run(TC_Register_New_Account:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791776645293.run(TempTestSuite1791776645293.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=155.0.8059.40)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [ea941a4587a95e31f4d6af85e2818e75, get {url=https://petstore.octoperf.com/actions/Catalog.action}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: C:\Users\djeha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51013}, goog:processID: 10936, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51013/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:3896/session..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ea941a4587a95e31f4d6af85e2818e75
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1090)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$rPs6m1bY.to(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Script1790903750370.run(Script1790903750370.groovy:22)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261012_104405\\TS_Register_DDT\\20261012_104405\\1791776755005.png]]]]></system-out>
+         <system-err><![CDATA[12-10-2026T10:45:51 - [TEST_CASE][FAILED] - Test Cases/TC_Register_New_Account: Test Cases/TC_Register_New_Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://petstore.octoperf.com/actions/Catalog.action'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at TC_Register_New_Account.run(TC_Register_New_Account:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791776645293.run(TempTestSuite1791776645293.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=155.0.8059.40)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [ea941a4587a95e31f4d6af85e2818e75, get {url=https://petstore.octoperf.com/actions/Catalog.action}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: C:\Users\djeha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51013}, goog:processID: 10936, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51013/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:3896/session..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ea941a4587a95e31f4d6af85e2818e75
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1090)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$rPs6m1bY.to(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Register_New_Account" time="9.973" classname="Test Cases/TC_Register_New_Account" status="FAILED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"zip":"55111","country":"Indonesia","firstname":"Rina","enable_mybanner":"true","repeat_password":"Secret123","address2":"Blok U","city":"Yogyakarta","address1":"Jl. Malioboro","language":"japanese","enable_mylist":"true","lastname":"Melati","password":"Secret123","ExpectedResult":"Failed","phone":"0855667788","state":"DIY","category":"DOGS","email":"email-salah-format","username":"jehan0599"}]]></property>
+         </properties>
+         <failure type="FAILED" message="Test Cases/TC_Register_New_Account FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://petstore.octoperf.com/actions/Catalog.action'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)&#xa;	at TC_Register_New_Account.run(TC_Register_New_Account:22)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1791776645293.run(TempTestSuite1791776645293.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED&#xa;  (Session info: chrome=155.0.8059.40)&#xa;Build info: version: '4.28.1', revision: '73f5ad48a2'&#xa;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Command: [3925c7543934da90bbd0191ed1830947, get {url=https://petstore.octoperf.com/actions/Catalog.action}]&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: C:\Users\djeha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49278}, goog:processID: 7848, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49278/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:26639/sessio..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: 3925c7543934da90bbd0191ed1830947&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)&#xa;	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1090)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)&#xa;	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)&#xa;	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$9ksXhdxo.to(Unknown Source)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:84)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[12-10-2026T10:45:55 - [TEST_CASE][FAILED] - Test Cases/TC_Register_New_Account: Test Cases/TC_Register_New_Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://petstore.octoperf.com/actions/Catalog.action'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at TC_Register_New_Account.run(TC_Register_New_Account:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791776645293.run(TempTestSuite1791776645293.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=155.0.8059.40)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [3925c7543934da90bbd0191ed1830947, get {url=https://petstore.octoperf.com/actions/Catalog.action}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: C:\Users\djeha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49278}, goog:processID: 7848, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49278/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:26639/sessio..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3925c7543934da90bbd0191ed1830947
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1090)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$9ksXhdxo.to(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+
+12-10-2026T10:45:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-10-2026T10:45:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-10-2026T10:45:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-10-2026T10:45:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-10-2026T10:45:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-10-2026T10:45:56 - [TEST_STEP][FAILED] - navigateToUrl(base_url): Unable to navigate to 'https://petstore.octoperf.com/actions/Catalog.action' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://petstore.octoperf.com/actions/Catalog.action'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at TC_Register_New_Account.run(TC_Register_New_Account:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791776645293.run(TempTestSuite1791776645293.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=155.0.8059.40)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [3925c7543934da90bbd0191ed1830947, get {url=https://petstore.octoperf.com/actions/Catalog.action}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: C:\Users\djeha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49278}, goog:processID: 7848, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49278/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:26639/sessio..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3925c7543934da90bbd0191ed1830947
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1090)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$9ksXhdxo.to(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Script1790903750370.run(Script1790903750370.groovy:22)
+	... 15 more
+)
+
+12-10-2026T10:46:05 - [MESSAGE][FAILED] - Unable to navigate to 'https://petstore.octoperf.com/actions/Catalog.action' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://petstore.octoperf.com/actions/Catalog.action'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at TC_Register_New_Account.run(TC_Register_New_Account:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791776645293.run(TempTestSuite1791776645293.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=155.0.8059.40)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [3925c7543934da90bbd0191ed1830947, get {url=https://petstore.octoperf.com/actions/Catalog.action}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: C:\Users\djeha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49278}, goog:processID: 7848, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49278/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:26639/sessio..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3925c7543934da90bbd0191ed1830947
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1090)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$9ksXhdxo.to(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at Script1790903750370.run(Script1790903750370.groovy:22)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261012_104405\\TS_Register_DDT\\20261012_104405\\1791776765189.png]]]]></system-out>
+         <system-err><![CDATA[12-10-2026T10:45:55 - [TEST_CASE][FAILED] - Test Cases/TC_Register_New_Account: Test Cases/TC_Register_New_Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://petstore.octoperf.com/actions/Catalog.action'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:185)
+	at TC_Register_New_Account.run(TC_Register_New_Account:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791776645293.run(TempTestSuite1791776645293.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=155.0.8059.40)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [3925c7543934da90bbd0191ed1830947, get {url=https://petstore.octoperf.com/actions/Catalog.action}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.40, chrome: {chromedriverVersion: 154.0.8037.57 (73c14f6228d7..., userDataDir: C:\Users\djeha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49278}, goog:processID: 7848, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49278/devtoo..., se:cdpVersion: 155.0.8059.40, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:26639/sessio..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3925c7543934da90bbd0191ed1830947
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1090)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$9ksXhdxo.to(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-10-2026T10:44:09 - [TEST_SUITE][FAILED] - TS_Register_DDT: null]]></system-out>
+      <system-err><![CDATA[12-10-2026T10:44:09 - [TEST_SUITE][FAILED] - TS_Register_DDT: null]]></system-err>
+   </testsuite>
+</testsuites>

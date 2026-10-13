@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Register_DDT" time="128.434" tests="6" failures="0" errors="0">
+   <testsuite name="TS_Register_DDT" tests="6" failures="0" errors="0" time="128.434" skipped="0" timestamp="2026-10-09T02:21:20.784Z" hostname="djeha - Jehan" id="Test Suites/TS_Register_DDT">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261009_092057\\TS_Register_DDT\\20261009_092057"/>
+         <property name="logFiles" value="C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261009_092057\\TS_Register_DDT\\20261009_092057\\console0.log, C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261009_092057\\TS_Register_DDT\\20261009_092057\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="djeha - Jehan"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.2.0"/>
+         <property name="browser" value="Chrome 155.0.8059.40"/>
+         <property name="userFullName" value="Hans Anwar"/>
+         <property name="hostAddress" value="172.21.138.206"/>
+         <property name="sessionId" value="aa75b73cc62687848d1b8d72d22f1e3a"/>
+         <property name="projectName" value="FinalProject_AfterOffice"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_Register_New_Account" time="30.638" classname="Test Cases/TC_Register_New_Account" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"zip":"12345","country":"Indonesia","firstname":"Jehan","repeat_password":"Secret123","city":"Jakarta","address1":"Jl. Merdeka No.1","language":"english","lastname":"Anwar","password":"Secret123","phone":"0812345678","state":"DKI","category":"DOGS","email":"jehan@email.com","username":"jehan_master"}]]></property>
+         </properties>
+         <system-out><![CDATA[09-10-2026T09:21:22 - [TEST_CASE][PASSED] - Test Cases/TC_Register_New_Account: Test Cases/TC_Register_New_Account
+
+09-10-2026T09:21:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-10-2026T09:21:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-10-2026T09:21:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-10-2026T09:21:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-10-2026T09:21:28 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+09-10-2026T09:21:35 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+09-10-2026T09:21:35 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Sign_in")): Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+09-10-2026T09:21:37 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+09-10-2026T09:21:37 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_in/btn_Sign_up")): Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+09-10-2026T09:21:38 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+09-10-2026T09:21:38 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_in/input_Username"), username): Text 'jehan_master' is set on object 'Object Repository/page_Sign_in/input_Username'
+
+09-10-2026T09:21:39 - [MESSAGE][PASSED] - Text 'jehan_master' is set on object 'Object Repository/page_Sign_in/input_Username'
+
+09-10-2026T09:21:39 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_in/input_Password"), password): Text 'Secret123' is set on object 'Object Repository/page_Sign_in/input_Password'
+
+09-10-2026T09:21:40 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_in/input_Password'
+
+09-10-2026T09:21:40 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Repeat_password"), repeat_password): Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+09-10-2026T09:21:41 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+09-10-2026T09:21:41 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_First_name"), firstname): Text 'Jehan' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+09-10-2026T09:21:42 - [MESSAGE][PASSED] - Text 'Jehan' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+09-10-2026T09:21:42 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Last_name"), lastname): Text 'Anwar' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+09-10-2026T09:21:42 - [MESSAGE][PASSED] - Text 'Anwar' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+09-10-2026T09:21:42 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Email"), email): Text 'jehan@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+09-10-2026T09:21:43 - [MESSAGE][PASSED] - Text 'jehan@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+09-10-2026T09:21:43 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Phone"), phone): Text '0812345678' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+09-10-2026T09:21:44 - [MESSAGE][PASSED] - Text '0812345678' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+09-10-2026T09:21:44 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_1"), address1): Text 'Jl. Merdeka No.1' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+09-10-2026T09:21:45 - [MESSAGE][PASSED] - Text 'Jl. Merdeka No.1' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+09-10-2026T09:21:45 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_2"), ""): Text '' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+09-10-2026T09:21:46 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+09-10-2026T09:21:46 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_City"), city): Text 'Jakarta' is set on object 'Object Repository/page_Sign_up/input_City'
+
+09-10-2026T09:21:47 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/page_Sign_up/input_City'
+
+09-10-2026T09:21:47 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_State"), state): Text 'DKI' is set on object 'Object Repository/page_Sign_up/input_State'
+
+09-10-2026T09:21:48 - [MESSAGE][PASSED] - Text 'DKI' is set on object 'Object Repository/page_Sign_up/input_State'
+
+09-10-2026T09:21:48 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Zip"), zip): Text '12345' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+09-10-2026T09:21:49 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+09-10-2026T09:21:49 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Country"), country): Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+09-10-2026T09:21:50 - [MESSAGE][PASSED] - Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+09-10-2026T09:21:50 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Language_preference"), language, false): All options with label 'english' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+09-10-2026T09:21:51 - [MESSAGE][PASSED] - All options with label 'english' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+09-10-2026T09:21:51 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Favourite_category"), category, false): All options with label 'DOGS' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+09-10-2026T09:21:51 - [MESSAGE][PASSED] - All options with label 'DOGS' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+09-10-2026T09:21:51 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mylist")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+09-10-2026T09:21:52 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+09-10-2026T09:21:52 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mybanner")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+09-10-2026T09:21:52 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Register_New_Account" time="19.476" classname="Test Cases/TC_Register_New_Account" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"zip":"40111","country":"Indonesia","firstname":"Budi","repeat_password":"Secret123","city":"Bandung","address1":"Jl. Sudirman No.5","language":"japanese","lastname":"Santoso","password":"Secret123","phone":"0898765432","state":"Jabar","category":"CATS","email":"budi@email.com","username":"jehan_test2"}]]></property>
+         </properties>
+         <system-out><![CDATA[09-10-2026T09:21:53 - [TEST_CASE][PASSED] - Test Cases/TC_Register_New_Account: Test Cases/TC_Register_New_Account
+
+09-10-2026T09:21:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-10-2026T09:21:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+09-10-2026T09:21:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-10-2026T09:21:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-10-2026T09:21:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-10-2026T09:21:55 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+09-10-2026T09:21:57 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+09-10-2026T09:21:57 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Sign_in")): Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+09-10-2026T09:21:58 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+09-10-2026T09:21:58 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_in/btn_Sign_up")): Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+09-10-2026T09:21:59 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+09-10-2026T09:21:59 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_in/input_Username"), username): Text 'jehan_test2' is set on object 'Object Repository/page_Sign_in/input_Username'
+
+09-10-2026T09:22:00 - [MESSAGE][PASSED] - Text 'jehan_test2' is set on object 'Object Repository/page_Sign_in/input_Username'
+
+09-10-2026T09:22:00 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_in/input_Password"), password): Text 'Secret123' is set on object 'Object Repository/page_Sign_in/input_Password'
+
+09-10-2026T09:22:01 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_in/input_Password'
+
+09-10-2026T09:22:01 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Repeat_password"), repeat_password): Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+09-10-2026T09:22:01 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+09-10-2026T09:22:01 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_First_name"), firstname): Text 'Budi' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+09-10-2026T09:22:02 - [MESSAGE][PASSED] - Text 'Budi' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+09-10-2026T09:22:02 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Last_name"), lastname): Text 'Santoso' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+09-10-2026T09:22:03 - [MESSAGE][PASSED] - Text 'Santoso' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+09-10-2026T09:22:03 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Email"), email): Text 'budi@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+09-10-2026T09:22:04 - [MESSAGE][PASSED] - Text 'budi@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+09-10-2026T09:22:04 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Phone"), phone): Text '0898765432' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+09-10-2026T09:22:05 - [MESSAGE][PASSED] - Text '0898765432' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+09-10-2026T09:22:05 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_1"), address1): Text 'Jl. Sudirman No.5' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+09-10-2026T09:22:06 - [MESSAGE][PASSED] - Text 'Jl. Sudirman No.5' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+09-10-2026T09:22:06 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_2"), ""): Text '' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+09-10-2026T09:22:07 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+09-10-2026T09:22:07 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_City"), city): Text 'Bandung' is set on object 'Object Repository/page_Sign_up/input_City'
+
+09-10-2026T09:22:08 - [MESSAGE][PASSED] - Text 'Bandung' is set on object 'Object Repository/page_Sign_up/input_City'
+
+09-10-2026T09:22:08 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_State"), state): Text 'Jabar' is set on object 'Object Repository/page_Sign_up/input_State'
+
+09-10-2026T09:22:08 - [MESSAGE][PASSED] - Text 'Jabar' is set on object 'Object Repository/page_Sign_up/input_State'
+
+09-10-2026T09:22:08 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Zip"), zip): Text '40111' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+09-10-2026T09:22:09 - [MESSAGE][PASSED] - Text '40111' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+09-10-2026T09:22:09 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Country"), country): Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+09-10-2026T09:22:10 - [MESSAGE][PASSED] - Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+09-10-2026T09:22:10 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Language_preference"), language, false): All options with label 'japanese' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+09-10-2026T09:22:11 - [MESSAGE][PASSED] - All options with label 'japanese' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+09-10-2026T09:22:11 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Favourite_category"), category, false): All options with label 'CATS' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+09-10-2026T09:22:11 - [MESSAGE][PASSED] - All options with label 'CATS' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+09-10-2026T09:22:11 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mylist")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+09-10-2026T09:22:12 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+09-10-2026T09:22:12 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mybanner")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+09-10-2026T09:22:12 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Register_New_Account" time="18.538" classname="Test Cases/TC_Register_New_Account" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"zip":"12345","country":"Indonesia","firstname":"Jehan","repeat_password":"Secret123","city":"Jakarta","address1":"Jl. Merdeka No.1","language":"english","lastname":"Anwar","password":"Secret123","phone":"0812345678","state":"DKI","category":"FISH","email":"jehan@email.com","username":"jehan_master"}]]></property>
+         </properties>
+         <system-out><![CDATA[09-10-2026T09:22:12 - [TEST_CASE][PASSED] - Test Cases/TC_Register_New_Account: Test Cases/TC_Register_New_Account
+
+09-10-2026T09:22:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-10-2026T09:22:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+09-10-2026T09:22:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-10-2026T09:22:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-10-2026T09:22:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-10-2026T09:22:14 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+09-10-2026T09:22:16 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+09-10-2026T09:22:16 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Sign_in")): Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+09-10-2026T09:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+09-10-2026T09:22:17 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_in/btn_Sign_up")): Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+09-10-2026T09:22:18 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+09-10-2026T09:22:18 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_in/input_Username"), username): Text 'jehan_master' is set on object 'Object Repository/page_Sign_in/input_Username'
+
+09-10-2026T09:22:19 - [MESSAGE][PASSED] - Text 'jehan_master' is set on object 'Object Repository/page_Sign_in/input_Username'
+
+09-10-2026T09:22:19 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_in/input_Password"), password): Text 'Secret123' is set on object 'Object Repository/page_Sign_in/input_Password'
+
+09-10-2026T09:22:19 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_in/input_Password'
+
+09-10-2026T09:22:19 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Repeat_password"), repeat_password): Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+09-10-2026T09:22:20 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+09-10-2026T09:22:20 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_First_name"), firstname): Text 'Jehan' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+09-10-2026T09:22:21 - [MESSAGE][PASSED] - Text 'Jehan' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+09-10-2026T09:22:21 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Last_name"), lastname): Text 'Anwar' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+09-10-2026T09:22:22 - [MESSAGE][PASSED] - Text 'Anwar' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+09-10-2026T09:22:22 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Email"), email): Text 'jehan@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+09-10-2026T09:22:23 - [MESSAGE][PASSED] - Text 'jehan@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+09-10-2026T09:22:23 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Phone"), phone): Text '0812345678' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+09-10-2026T09:22:24 - [MESSAGE][PASSED] - Text '0812345678' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+09-10-2026T09:22:24 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_1"), address1): Text 'Jl. Merdeka No.1' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+09-10-2026T09:22:24 - [MESSAGE][PASSED] - Text 'Jl. Merdeka No.1' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+09-10-2026T09:22:24 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_2"), ""): Text '' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+09-10-2026T09:22:25 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+09-10-2026T09:22:25 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_City"), city): Text 'Jakarta' is set on object 'Object Repository/page_Sign_up/input_City'
+
+09-10-2026T09:22:26 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/page_Sign_up/input_City'
+
+09-10-2026T09:22:26 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_State"), state): Text 'DKI' is set on object 'Object Repository/page_Sign_up/input_State'
+
+09-10-2026T09:22:27 - [MESSAGE][PASSED] - Text 'DKI' is set on object 'Object Repository/page_Sign_up/input_State'
+
+09-10-2026T09:22:27 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Zip"), zip): Text '12345' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+09-10-2026T09:22:28 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+09-10-2026T09:22:28 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Country"), country): Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+09-10-2026T09:22:29 - [MESSAGE][PASSED] - Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+09-10-2026T09:22:29 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Language_preference"), language, false): All options with label 'english' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+09-10-2026T09:22:29 - [MESSAGE][PASSED] - All options with label 'english' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+09-10-2026T09:22:29 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Favourite_category"), category, false): All options with label 'FISH' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+09-10-2026T09:22:30 - [MESSAGE][PASSED] - All options with label 'FISH' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+09-10-2026T09:22:30 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mylist")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+09-10-2026T09:22:30 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+09-10-2026T09:22:30 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mybanner")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+09-10-2026T09:22:31 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Register_New_Account" time="19.179" classname="Test Cases/TC_Register_New_Account" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"zip":"40111","country":"Indonesia","firstname":"Jehan","(Default) passw...":"","repeat_password":"WrongPass","city":"Bandung","address1":"Jl. Sudirman","language":"japanese","lastname":"Anwar","phone":"0812345678","state":"Jabar","category":"REPTILES","email":"jehan2@email.com","username":"jehan02"}]]></property>
+         </properties>
+         <system-out><![CDATA[09-10-2026T09:22:31 - [TEST_CASE][PASSED] - Test Cases/TC_Register_New_Account: Test Cases/TC_Register_New_Account
+
+09-10-2026T09:22:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-10-2026T09:22:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+09-10-2026T09:22:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-10-2026T09:22:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-10-2026T09:22:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-10-2026T09:22:33 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+09-10-2026T09:22:35 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+09-10-2026T09:22:35 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Sign_in")): Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+09-10-2026T09:22:36 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+09-10-2026T09:22:36 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_in/btn_Sign_up")): Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+09-10-2026T09:22:37 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+09-10-2026T09:22:37 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_in/input_Username"), username): Text 'jehan02' is set on object 'Object Repository/page_Sign_in/input_Username'
+
+09-10-2026T09:22:38 - [MESSAGE][PASSED] - Text 'jehan02' is set on object 'Object Repository/page_Sign_in/input_Username'
+
+09-10-2026T09:22:38 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_in/input_Password"), password): Text '' is set on object 'Object Repository/page_Sign_in/input_Password'
+
+09-10-2026T09:22:39 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_Sign_in/input_Password'
+
+09-10-2026T09:22:39 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Repeat_password"), repeat_password): Text 'WrongPass' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+09-10-2026T09:22:40 - [MESSAGE][PASSED] - Text 'WrongPass' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+09-10-2026T09:22:40 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_First_name"), firstname): Text 'Jehan' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+09-10-2026T09:22:40 - [MESSAGE][PASSED] - Text 'Jehan' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+09-10-2026T09:22:40 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Last_name"), lastname): Text 'Anwar' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+09-10-2026T09:22:41 - [MESSAGE][PASSED] - Text 'Anwar' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+09-10-2026T09:22:41 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Email"), email): Text 'jehan2@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+09-10-2026T09:22:42 - [MESSAGE][PASSED] - Text 'jehan2@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+09-10-2026T09:22:42 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Phone"), phone): Text '0812345678' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+09-10-2026T09:22:43 - [MESSAGE][PASSED] - Text '0812345678' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+09-10-2026T09:22:43 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_1"), address1): Text 'Jl. Sudirman' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+09-10-2026T09:22:44 - [MESSAGE][PASSED] - Text 'Jl. Sudirman' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+09-10-2026T09:22:44 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_2"), ""): Text '' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+09-10-2026T09:22:45 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+09-10-2026T09:22:45 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_City"), city): Text 'Bandung' is set on object 'Object Repository/page_Sign_up/input_City'
+
+09-10-2026T09:22:46 - [MESSAGE][PASSED] - Text 'Bandung' is set on object 'Object Repository/page_Sign_up/input_City'
+
+09-10-2026T09:22:46 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_State"), state): Text 'Jabar' is set on object 'Object Repository/page_Sign_up/input_State'
+
+09-10-2026T09:22:46 - [MESSAGE][PASSED] - Text 'Jabar' is set on object 'Object Repository/page_Sign_up/input_State'
+
+09-10-2026T09:22:46 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Zip"), zip): Text '40111' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+09-10-2026T09:22:47 - [MESSAGE][PASSED] - Text '40111' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+09-10-2026T09:22:47 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Country"), country): Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+09-10-2026T09:22:48 - [MESSAGE][PASSED] - Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+09-10-2026T09:22:48 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Language_preference"), language, false): All options with label 'japanese' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+09-10-2026T09:22:49 - [MESSAGE][PASSED] - All options with label 'japanese' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+09-10-2026T09:22:49 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Favourite_category"), category, false): All options with label 'REPTILES' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+09-10-2026T09:22:49 - [MESSAGE][PASSED] - All options with label 'REPTILES' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+09-10-2026T09:22:49 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mylist")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+09-10-2026T09:22:50 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+09-10-2026T09:22:50 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mybanner")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+09-10-2026T09:22:50 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Register_New_Account" time="18.941" classname="Test Cases/TC_Register_New_Account" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) usern...":"","zip":"60111","country":"Indonesia","firstname":"Siti","repeat_password":"Secret123","city":"Surabaya","address1":"Jl. Ahmad Yani","language":"english","lastname":"Aminah","password":"Secret123","phone":"0811223344","state":"Jatim","category":"BIRDS","email":"siti@email.com"}]]></property>
+         </properties>
+         <system-out><![CDATA[09-10-2026T09:22:50 - [TEST_CASE][PASSED] - Test Cases/TC_Register_New_Account: Test Cases/TC_Register_New_Account
+
+09-10-2026T09:22:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-10-2026T09:22:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+09-10-2026T09:22:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-10-2026T09:22:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-10-2026T09:22:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-10-2026T09:22:53 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+09-10-2026T09:22:54 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+09-10-2026T09:22:54 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Sign_in")): Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+09-10-2026T09:22:55 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+09-10-2026T09:22:55 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_in/btn_Sign_up")): Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+09-10-2026T09:22:56 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+09-10-2026T09:22:56 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_in/input_Username"), username): Text '' is set on object 'Object Repository/page_Sign_in/input_Username'
+
+09-10-2026T09:22:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_Sign_in/input_Username'
+
+09-10-2026T09:22:57 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_in/input_Password"), password): Text 'Secret123' is set on object 'Object Repository/page_Sign_in/input_Password'
+
+09-10-2026T09:22:58 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_in/input_Password'
+
+09-10-2026T09:22:58 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Repeat_password"), repeat_password): Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+09-10-2026T09:22:59 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+09-10-2026T09:22:59 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_First_name"), firstname): Text 'Siti' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+09-10-2026T09:23:00 - [MESSAGE][PASSED] - Text 'Siti' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+09-10-2026T09:23:00 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Last_name"), lastname): Text 'Aminah' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+09-10-2026T09:23:00 - [MESSAGE][PASSED] - Text 'Aminah' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+09-10-2026T09:23:00 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Email"), email): Text 'siti@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+09-10-2026T09:23:01 - [MESSAGE][PASSED] - Text 'siti@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+09-10-2026T09:23:01 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Phone"), phone): Text '0811223344' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+09-10-2026T09:23:02 - [MESSAGE][PASSED] - Text '0811223344' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+09-10-2026T09:23:02 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_1"), address1): Text 'Jl. Ahmad Yani' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+09-10-2026T09:23:03 - [MESSAGE][PASSED] - Text 'Jl. Ahmad Yani' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+09-10-2026T09:23:03 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_2"), ""): Text '' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+09-10-2026T09:23:04 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+09-10-2026T09:23:04 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_City"), city): Text 'Surabaya' is set on object 'Object Repository/page_Sign_up/input_City'
+
+09-10-2026T09:23:05 - [MESSAGE][PASSED] - Text 'Surabaya' is set on object 'Object Repository/page_Sign_up/input_City'
+
+09-10-2026T09:23:05 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_State"), state): Text 'Jatim' is set on object 'Object Repository/page_Sign_up/input_State'
+
+09-10-2026T09:23:06 - [MESSAGE][PASSED] - Text 'Jatim' is set on object 'Object Repository/page_Sign_up/input_State'
+
+09-10-2026T09:23:06 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Zip"), zip): Text '60111' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+09-10-2026T09:23:07 - [MESSAGE][PASSED] - Text '60111' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+09-10-2026T09:23:07 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Country"), country): Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+09-10-2026T09:23:07 - [MESSAGE][PASSED] - Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+09-10-2026T09:23:07 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Language_preference"), language, false): All options with label 'english' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+09-10-2026T09:23:08 - [MESSAGE][PASSED] - All options with label 'english' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+09-10-2026T09:23:08 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Favourite_category"), category, false): All options with label 'BIRDS' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+09-10-2026T09:23:09 - [MESSAGE][PASSED] - All options with label 'BIRDS' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+09-10-2026T09:23:09 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mylist")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+09-10-2026T09:23:09 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+09-10-2026T09:23:09 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mybanner")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+09-10-2026T09:23:09 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Register_New_Account" time="19.036" classname="Test Cases/TC_Register_New_Account" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"zip":"55111","country":"Indonesia","firstname":"Rina","repeat_password":"Secret123","city":"Yogyakarta","address1":"Jl. Malioboro","language":"japanese","lastname":"Melati","password":"Secret123","phone":"0855667788","state":"DIY","category":"DOGS","email":"email-salah-format","username":"jehan05"}]]></property>
+         </properties>
+         <system-out><![CDATA[09-10-2026T09:23:10 - [TEST_CASE][PASSED] - Test Cases/TC_Register_New_Account: Test Cases/TC_Register_New_Account
+
+09-10-2026T09:23:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-10-2026T09:23:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+09-10-2026T09:23:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-10-2026T09:23:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-10-2026T09:23:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-10-2026T09:23:12 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+09-10-2026T09:23:14 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+09-10-2026T09:23:14 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Sign_in")): Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+09-10-2026T09:23:15 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+09-10-2026T09:23:15 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_in/btn_Sign_up")): Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+09-10-2026T09:23:16 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+09-10-2026T09:23:16 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_in/input_Username"), username): Text 'jehan05' is set on object 'Object Repository/page_Sign_in/input_Username'
+
+09-10-2026T09:23:17 - [MESSAGE][PASSED] - Text 'jehan05' is set on object 'Object Repository/page_Sign_in/input_Username'
+
+09-10-2026T09:23:17 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_in/input_Password"), password): Text 'Secret123' is set on object 'Object Repository/page_Sign_in/input_Password'
+
+09-10-2026T09:23:17 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_in/input_Password'
+
+09-10-2026T09:23:17 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Repeat_password"), repeat_password): Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+09-10-2026T09:23:18 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+09-10-2026T09:23:18 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_First_name"), firstname): Text 'Rina' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+09-10-2026T09:23:19 - [MESSAGE][PASSED] - Text 'Rina' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+09-10-2026T09:23:19 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Last_name"), lastname): Text 'Melati' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+09-10-2026T09:23:20 - [MESSAGE][PASSED] - Text 'Melati' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+09-10-2026T09:23:20 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Email"), email): Text 'email-salah-format' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+09-10-2026T09:23:21 - [MESSAGE][PASSED] - Text 'email-salah-format' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+09-10-2026T09:23:21 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Phone"), phone): Text '0855667788' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+09-10-2026T09:23:22 - [MESSAGE][PASSED] - Text '0855667788' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+09-10-2026T09:23:22 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_1"), address1): Text 'Jl. Malioboro' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+09-10-2026T09:23:22 - [MESSAGE][PASSED] - Text 'Jl. Malioboro' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+09-10-2026T09:23:22 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_2"), ""): Text '' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+09-10-2026T09:23:23 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+09-10-2026T09:23:23 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_City"), city): Text 'Yogyakarta' is set on object 'Object Repository/page_Sign_up/input_City'
+
+09-10-2026T09:23:24 - [MESSAGE][PASSED] - Text 'Yogyakarta' is set on object 'Object Repository/page_Sign_up/input_City'
+
+09-10-2026T09:23:24 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_State"), state): Text 'DIY' is set on object 'Object Repository/page_Sign_up/input_State'
+
+09-10-2026T09:23:25 - [MESSAGE][PASSED] - Text 'DIY' is set on object 'Object Repository/page_Sign_up/input_State'
+
+09-10-2026T09:23:25 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Zip"), zip): Text '55111' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+09-10-2026T09:23:26 - [MESSAGE][PASSED] - Text '55111' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+09-10-2026T09:23:26 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Country"), country): Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+09-10-2026T09:23:27 - [MESSAGE][PASSED] - Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+09-10-2026T09:23:27 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Language_preference"), language, false): All options with label 'japanese' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+09-10-2026T09:23:27 - [MESSAGE][PASSED] - All options with label 'japanese' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+09-10-2026T09:23:27 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Favourite_category"), category, false): All options with label 'DOGS' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+09-10-2026T09:23:28 - [MESSAGE][PASSED] - All options with label 'DOGS' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+09-10-2026T09:23:28 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mylist")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+09-10-2026T09:23:28 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+09-10-2026T09:23:28 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mybanner")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+09-10-2026T09:23:29 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-10-2026T09:21:20 - [TEST_SUITE][PASSED] - TS_Register_DDT: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

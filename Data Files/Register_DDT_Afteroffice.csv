@@ -1,0 +1,7 @@
+TestCaseID,username,password,repeat_password,firstname,lastname,email,phone,address1,address2,city,state,zip,country,language,category,enable_mylist,enable_mybanner,ExpectedResult
+TC_Pos_01,jehan_master99123,Secret123,Secret123,Jehan,Anwar,jehan@email.com,0812345678,Jl. Merdeka No.1,Blok M,Jakarta,DKI,12345,Indonesia,english,DOGS,true,true,Success
+TC_Pos_02,jehan_test299123,Secret123,Secret123,Budi,Santoso,budi@email.com,0898765432,Jl. Sudirman No.5,,Bandung,Jabar,40111,Indonesia,japanese,CATS,true,false,Success
+TC_Neg_01,jehan_master99123,Secret123,Secret123,Jehan,Anwar,jehan@email.com,0812345678,Jl. Merdeka No.1,Blok B,Jakarta,DKI,12345,Indonesia,english,FISH,false,true,Failed
+TC_Neg_02,jehan0299123,,WrongPass,Jehan,Anwar,jehan2@email.com,0812345678,Jl. Sudirman,Blok D,Bandung,Jabar,40111,Indonesia,japanese,REPTILES,true,true,Failed
+TC_Neg_03,,Secret123,Secret123,Siti,Aminah,siti@email.com,0811223344,Jl. Ahmad Yani,Blok E,Surabaya,Jatim,60111,Indonesia,english,BIRDS,true,true,Failed
+TC_Neg_04,jehan0599123,Secret123,Secret123,Rina,Melati,email-salah-format,0855667788,Jl. Malioboro,Blok U,Yogyakarta,DIY,55111,Indonesia,japanese,DOGS,true,true,Failed

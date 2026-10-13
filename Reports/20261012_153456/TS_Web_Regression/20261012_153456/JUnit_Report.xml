@@ -1,0 +1,1294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Web_Regression" time="179.023" tests="10" failures="1" errors="0">
+   <testsuite name="TS_Web_Regression" tests="10" failures="1" errors="0" time="179.023" skipped="0" timestamp="2026-10-12T08:35:02.726Z" hostname="djeha - Jehan" id="Test Suites/TS_Web_Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261012_153456\\TS_Web_Regression\\20261012_153456"/>
+         <property name="logFiles" value="C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261012_153456\\TS_Web_Regression\\20261012_153456\\console0.log, C:\\Users\\djeha\\Katalon Studio\\FinalProject_AfterOffice\\Reports\\20261012_153456\\TS_Web_Regression\\20261012_153456\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="djeha - Jehan"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.2.0"/>
+         <property name="browser" value="Chrome 155.0.8059.40"/>
+         <property name="userFullName" value="Hans Anwar"/>
+         <property name="hostAddress" value="172.21.138.206"/>
+         <property name="sessionId" value="7b019ebd42123fa39d9c36b3c009dd4a"/>
+         <property name="projectName" value="FinalProject_AfterOffice"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_01_Register_New_Account" time="30.876" classname="Test Cases/TC_01_Register_New_Account" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"zip":"12345","country":"Indonesia","firstname":"Jehan","enable_mybanner":"true","repeat_password":"Secret123","address2":"Blok M","city":"Jakarta","address1":"Jl. Merdeka No.1","language":"english","enable_mylist":"true","lastname":"Anwar","password":"Secret123","ExpectedResult":"Success","phone":"0812345678","state":"DKI","category":"DOGS","email":"jehan@email.com","username":"jehan_master99123"}]]></property>
+         </properties>
+         <system-out><![CDATA[12-10-2026T15:35:04 - [TEST_CASE][PASSED] - Test Cases/TC_01_Register_New_Account: Test Cases/TC_01_Register_New_Account
+
+12-10-2026T15:35:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-10-2026T15:35:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-10-2026T15:35:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-10-2026T15:35:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-10-2026T15:35:10 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:35:12 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:35:12 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Sign_in")): Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T15:35:14 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T15:35:14 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_in/btn_Sign_up")): Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+12-10-2026T15:35:16 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+12-10-2026T15:35:16 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_UserID"), username): Text 'jehan_master99123' is set on object 'Object Repository/page_Sign_up/input_UserID'
+
+12-10-2026T15:35:17 - [MESSAGE][PASSED] - Text 'jehan_master99123' is set on object 'Object Repository/page_Sign_up/input_UserID'
+
+12-10-2026T15:35:17 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Newpassword"), password): Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Newpassword'
+
+12-10-2026T15:35:18 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Newpassword'
+
+12-10-2026T15:35:18 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Repeat_password"), repeat_password): Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+12-10-2026T15:35:19 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+12-10-2026T15:35:19 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_First_name"), firstname): Text 'Jehan' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+12-10-2026T15:35:20 - [MESSAGE][PASSED] - Text 'Jehan' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+12-10-2026T15:35:20 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Last_name"), lastname): Text 'Anwar' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+12-10-2026T15:35:21 - [MESSAGE][PASSED] - Text 'Anwar' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+12-10-2026T15:35:21 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Email"), email): Text 'jehan@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+12-10-2026T15:35:22 - [MESSAGE][PASSED] - Text 'jehan@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+12-10-2026T15:35:22 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Phone"), phone): Text '0812345678' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+12-10-2026T15:35:22 - [MESSAGE][PASSED] - Text '0812345678' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+12-10-2026T15:35:22 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_1"), address1): Text 'Jl. Merdeka No.1' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+12-10-2026T15:35:23 - [MESSAGE][PASSED] - Text 'Jl. Merdeka No.1' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+12-10-2026T15:35:23 - [TEST_STEP][PASSED] - if (address2): Text 'Blok M' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+12-10-2026T15:35:23 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_2"), address2): Text 'Blok M' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+12-10-2026T15:35:24 - [MESSAGE][PASSED] - Text 'Blok M' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+12-10-2026T15:35:24 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_City"), city): Text 'Jakarta' is set on object 'Object Repository/page_Sign_up/input_City'
+
+12-10-2026T15:35:25 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/page_Sign_up/input_City'
+
+12-10-2026T15:35:25 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_State"), state): Text 'DKI' is set on object 'Object Repository/page_Sign_up/input_State'
+
+12-10-2026T15:35:26 - [MESSAGE][PASSED] - Text 'DKI' is set on object 'Object Repository/page_Sign_up/input_State'
+
+12-10-2026T15:35:26 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Zip"), zip): Text '12345' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+12-10-2026T15:35:27 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+12-10-2026T15:35:27 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Country"), country): Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+12-10-2026T15:35:28 - [MESSAGE][PASSED] - Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+12-10-2026T15:35:28 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Language_preference"), language, false): All options with label 'english' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+12-10-2026T15:35:29 - [MESSAGE][PASSED] - All options with label 'english' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+12-10-2026T15:35:29 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Favourite_category"), category, false): All options with label 'DOGS' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+12-10-2026T15:35:30 - [MESSAGE][PASSED] - All options with label 'DOGS' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+12-10-2026T15:35:30 - [TEST_STEP][PASSED] - if (enable_mylist.toBoolean()): Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+12-10-2026T15:35:30 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mylist")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+12-10-2026T15:35:30 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+12-10-2026T15:35:30 - [TEST_STEP][PASSED] - if (enable_mybanner.toBoolean()): Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+12-10-2026T15:35:30 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mybanner")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+12-10-2026T15:35:31 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+12-10-2026T15:35:31 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_up/btn_Save_account")): Object: 'Object Repository/page_Sign_up/btn_Save_account' is clicked on
+
+12-10-2026T15:35:33 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_up/btn_Save_account' is clicked on
+
+12-10-2026T15:35:33 - [TEST_STEP][PASSED] - if (ExpectedResult == "Success"): Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' is not present after '5' second(s)
+
+12-10-2026T15:35:33 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("page_Sign_up/btn_Save_account"), 5): Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' is not present after '5' second(s)
+
+12-10-2026T15:35:34 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' is not present after '5' second(s)
+
+12-10-2026T15:35:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-10-2026T15:35:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_01_Register_New_Account" time="20.379" classname="Test Cases/TC_01_Register_New_Account" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"zip":"40111","country":"Indonesia","firstname":"Budi","enable_mybanner":"false","repeat_password":"Secret123","city":"Bandung","address1":"Jl. Sudirman No.5","(Default) addre...":"","language":"japanese","enable_mylist":"true","lastname":"Santoso","password":"Secret123","ExpectedResult":"Success","phone":"0898765432","state":"Jabar","category":"CATS","email":"budi@email.com","username":"jehan_test299123"}]]></property>
+         </properties>
+         <system-out><![CDATA[12-10-2026T15:35:35 - [TEST_CASE][PASSED] - Test Cases/TC_01_Register_New_Account: Test Cases/TC_01_Register_New_Account
+
+12-10-2026T15:35:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-10-2026T15:35:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-10-2026T15:35:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-10-2026T15:35:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-10-2026T15:35:37 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:35:39 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:35:39 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Sign_in")): Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T15:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T15:35:40 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_in/btn_Sign_up")): Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+12-10-2026T15:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+12-10-2026T15:35:41 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_UserID"), username): Text 'jehan_test299123' is set on object 'Object Repository/page_Sign_up/input_UserID'
+
+12-10-2026T15:35:41 - [MESSAGE][PASSED] - Text 'jehan_test299123' is set on object 'Object Repository/page_Sign_up/input_UserID'
+
+12-10-2026T15:35:41 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Newpassword"), password): Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Newpassword'
+
+12-10-2026T15:35:42 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Newpassword'
+
+12-10-2026T15:35:42 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Repeat_password"), repeat_password): Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+12-10-2026T15:35:43 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+12-10-2026T15:35:43 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_First_name"), firstname): Text 'Budi' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+12-10-2026T15:35:44 - [MESSAGE][PASSED] - Text 'Budi' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+12-10-2026T15:35:44 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Last_name"), lastname): Text 'Santoso' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+12-10-2026T15:35:45 - [MESSAGE][PASSED] - Text 'Santoso' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+12-10-2026T15:35:45 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Email"), email): Text 'budi@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+12-10-2026T15:35:46 - [MESSAGE][PASSED] - Text 'budi@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+12-10-2026T15:35:46 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Phone"), phone): Text '0898765432' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+12-10-2026T15:35:47 - [MESSAGE][PASSED] - Text '0898765432' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+12-10-2026T15:35:47 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_1"), address1): Text 'Jl. Sudirman No.5' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+12-10-2026T15:35:47 - [MESSAGE][PASSED] - Text 'Jl. Sudirman No.5' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+12-10-2026T15:35:47 - [TEST_STEP][PASSED] - if (address2): null
+
+12-10-2026T15:35:47 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_City"), city): Text 'Bandung' is set on object 'Object Repository/page_Sign_up/input_City'
+
+12-10-2026T15:35:48 - [MESSAGE][PASSED] - Text 'Bandung' is set on object 'Object Repository/page_Sign_up/input_City'
+
+12-10-2026T15:35:48 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_State"), state): Text 'Jabar' is set on object 'Object Repository/page_Sign_up/input_State'
+
+12-10-2026T15:35:49 - [MESSAGE][PASSED] - Text 'Jabar' is set on object 'Object Repository/page_Sign_up/input_State'
+
+12-10-2026T15:35:49 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Zip"), zip): Text '40111' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+12-10-2026T15:35:50 - [MESSAGE][PASSED] - Text '40111' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+12-10-2026T15:35:50 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Country"), country): Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+12-10-2026T15:35:51 - [MESSAGE][PASSED] - Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+12-10-2026T15:35:51 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Language_preference"), language, false): All options with label 'japanese' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+12-10-2026T15:35:51 - [MESSAGE][PASSED] - All options with label 'japanese' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+12-10-2026T15:35:51 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Favourite_category"), category, false): All options with label 'CATS' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+12-10-2026T15:35:52 - [MESSAGE][PASSED] - All options with label 'CATS' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+12-10-2026T15:35:52 - [TEST_STEP][PASSED] - if (enable_mylist.toBoolean()): Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+12-10-2026T15:35:52 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mylist")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+12-10-2026T15:35:52 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+12-10-2026T15:35:53 - [TEST_STEP][PASSED] - if (enable_mybanner.toBoolean()): null
+
+12-10-2026T15:35:53 - [TEST_STEP][PASSED] - else: Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is un-checked
+
+12-10-2026T15:35:53 - [TEST_STEP][PASSED] - uncheck(findTestObject("page_Sign_up/checkbox_Enable_mybanner")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is un-checked
+
+12-10-2026T15:35:53 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is un-checked
+
+12-10-2026T15:35:53 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_up/btn_Save_account")): Object: 'Object Repository/page_Sign_up/btn_Save_account' is clicked on
+
+12-10-2026T15:35:54 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_up/btn_Save_account' is clicked on
+
+12-10-2026T15:35:54 - [TEST_STEP][PASSED] - if (ExpectedResult == "Success"): Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' is not present after '5' second(s)
+
+12-10-2026T15:35:54 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("page_Sign_up/btn_Save_account"), 5): Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' is not present after '5' second(s)
+
+12-10-2026T15:35:55 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' is not present after '5' second(s)
+
+12-10-2026T15:35:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-10-2026T15:35:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_01_Register_New_Account" time="23.867" classname="Test Cases/TC_01_Register_New_Account" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"zip":"12345","country":"Indonesia","firstname":"Jehan","enable_mybanner":"true","repeat_password":"Secret123","address2":"Blok B","city":"Jakarta","address1":"Jl. Merdeka No.1","language":"english","enable_mylist":"false","lastname":"Anwar","password":"Secret123","ExpectedResult":"Failed","phone":"0812345678","state":"DKI","category":"FISH","email":"jehan@email.com","username":"jehan_master99123"}]]></property>
+         </properties>
+         <system-out><![CDATA[12-10-2026T15:35:55 - [TEST_CASE][PASSED] - Test Cases/TC_01_Register_New_Account: Test Cases/TC_01_Register_New_Account
+
+12-10-2026T15:35:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-10-2026T15:35:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-10-2026T15:35:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-10-2026T15:35:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-10-2026T15:35:57 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:35:58 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:35:58 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Sign_in")): Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T15:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T15:35:59 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_in/btn_Sign_up")): Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+12-10-2026T15:36:00 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+12-10-2026T15:36:00 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_UserID"), username): Text 'jehan_master99123' is set on object 'Object Repository/page_Sign_up/input_UserID'
+
+12-10-2026T15:36:01 - [MESSAGE][PASSED] - Text 'jehan_master99123' is set on object 'Object Repository/page_Sign_up/input_UserID'
+
+12-10-2026T15:36:01 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Newpassword"), password): Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Newpassword'
+
+12-10-2026T15:36:02 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Newpassword'
+
+12-10-2026T15:36:02 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Repeat_password"), repeat_password): Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+12-10-2026T15:36:03 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+12-10-2026T15:36:03 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_First_name"), firstname): Text 'Jehan' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+12-10-2026T15:36:04 - [MESSAGE][PASSED] - Text 'Jehan' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+12-10-2026T15:36:04 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Last_name"), lastname): Text 'Anwar' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+12-10-2026T15:36:05 - [MESSAGE][PASSED] - Text 'Anwar' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+12-10-2026T15:36:05 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Email"), email): Text 'jehan@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+12-10-2026T15:36:06 - [MESSAGE][PASSED] - Text 'jehan@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+12-10-2026T15:36:06 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Phone"), phone): Text '0812345678' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+12-10-2026T15:36:06 - [MESSAGE][PASSED] - Text '0812345678' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+12-10-2026T15:36:06 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_1"), address1): Text 'Jl. Merdeka No.1' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+12-10-2026T15:36:07 - [MESSAGE][PASSED] - Text 'Jl. Merdeka No.1' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+12-10-2026T15:36:07 - [TEST_STEP][PASSED] - if (address2): Text 'Blok B' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+12-10-2026T15:36:07 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_2"), address2): Text 'Blok B' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+12-10-2026T15:36:08 - [MESSAGE][PASSED] - Text 'Blok B' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+12-10-2026T15:36:08 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_City"), city): Text 'Jakarta' is set on object 'Object Repository/page_Sign_up/input_City'
+
+12-10-2026T15:36:09 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/page_Sign_up/input_City'
+
+12-10-2026T15:36:09 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_State"), state): Text 'DKI' is set on object 'Object Repository/page_Sign_up/input_State'
+
+12-10-2026T15:36:10 - [MESSAGE][PASSED] - Text 'DKI' is set on object 'Object Repository/page_Sign_up/input_State'
+
+12-10-2026T15:36:10 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Zip"), zip): Text '12345' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+12-10-2026T15:36:11 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+12-10-2026T15:36:11 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Country"), country): Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+12-10-2026T15:36:12 - [MESSAGE][PASSED] - Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+12-10-2026T15:36:12 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Language_preference"), language, false): All options with label 'english' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+12-10-2026T15:36:12 - [MESSAGE][PASSED] - All options with label 'english' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+12-10-2026T15:36:12 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Favourite_category"), category, false): All options with label 'FISH' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+12-10-2026T15:36:13 - [MESSAGE][PASSED] - All options with label 'FISH' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+12-10-2026T15:36:13 - [TEST_STEP][PASSED] - if (enable_mylist.toBoolean()): null
+
+12-10-2026T15:36:13 - [TEST_STEP][PASSED] - else: Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is un-checked
+
+12-10-2026T15:36:13 - [TEST_STEP][PASSED] - uncheck(findTestObject("page_Sign_up/checkbox_Enable_mylist")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is un-checked
+
+12-10-2026T15:36:13 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is un-checked
+
+12-10-2026T15:36:13 - [TEST_STEP][PASSED] - if (enable_mybanner.toBoolean()): Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+12-10-2026T15:36:13 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mybanner")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+12-10-2026T15:36:14 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+12-10-2026T15:36:14 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_up/btn_Save_account")): Object: 'Object Repository/page_Sign_up/btn_Save_account' is clicked on
+
+12-10-2026T15:36:15 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_up/btn_Save_account' is clicked on
+
+12-10-2026T15:36:15 - [TEST_STEP][PASSED] - if (ExpectedResult == "Success"): null
+
+12-10-2026T15:36:15 - [TEST_STEP][PASSED] - else: Actual object 'true' and expected object 'true' are equal
+
+12-10-2026T15:36:15 - [TEST_STEP][WARNING] - isStillInForm = verifyElementPresent(findTestObject("page_Sign_up/btn_Save_account"), 3, OPTIONAL): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1549)
+	at TC_01_Register_New_Account.run(TC_01_Register_New_Account:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791794096883.run(TempTestSuite1791794096883.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+12-10-2026T15:36:18 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1549)
+	at TC_01_Register_New_Account.run(TC_01_Register_New_Account:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791794096883.run(TempTestSuite1791794096883.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+12-10-2026T15:36:18 - [TEST_STEP][PASSED] - isError500 = verifyTextPresent("HTTP Status 500", false, OPTIONAL): Text 'HTTP Status 500' is present on page 
+
+12-10-2026T15:36:18 - [MESSAGE][PASSED] - Text 'HTTP Status 500' is present on page 
+
+12-10-2026T15:36:18 - [TEST_STEP][PASSED] - verifyEqual(isStillInForm || isError500, true): Actual object 'true' and expected object 'true' are equal
+
+12-10-2026T15:36:19 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+12-10-2026T15:36:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-10-2026T15:36:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_01_Register_New_Account" time="20.905" classname="Test Cases/TC_01_Register_New_Account" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"zip":"40111","country":"Indonesia","firstname":"Jehan","enable_mybanner":"true","(Default) passw...":"","repeat_password":"WrongPass","address2":"Blok D","city":"Bandung","address1":"Jl. Sudirman","language":"japanese","enable_mylist":"true","lastname":"Anwar","ExpectedResult":"Failed","phone":"0812345678","state":"Jabar","category":"REPTILES","email":"jehan2@email.com","username":"jehan0299123"}]]></property>
+         </properties>
+         <system-out><![CDATA[12-10-2026T15:36:19 - [TEST_CASE][PASSED] - Test Cases/TC_01_Register_New_Account: Test Cases/TC_01_Register_New_Account
+
+12-10-2026T15:36:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-10-2026T15:36:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-10-2026T15:36:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-10-2026T15:36:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-10-2026T15:36:21 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:36:23 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:36:23 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Sign_in")): Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T15:36:23 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T15:36:23 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_in/btn_Sign_up")): Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+12-10-2026T15:36:24 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+12-10-2026T15:36:24 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_UserID"), username): Text 'jehan0299123' is set on object 'Object Repository/page_Sign_up/input_UserID'
+
+12-10-2026T15:36:25 - [MESSAGE][PASSED] - Text 'jehan0299123' is set on object 'Object Repository/page_Sign_up/input_UserID'
+
+12-10-2026T15:36:25 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Newpassword"), password): Text '' is set on object 'Object Repository/page_Sign_up/input_Newpassword'
+
+12-10-2026T15:36:26 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_Sign_up/input_Newpassword'
+
+12-10-2026T15:36:26 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Repeat_password"), repeat_password): Text 'WrongPass' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+12-10-2026T15:36:27 - [MESSAGE][PASSED] - Text 'WrongPass' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+12-10-2026T15:36:27 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_First_name"), firstname): Text 'Jehan' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+12-10-2026T15:36:28 - [MESSAGE][PASSED] - Text 'Jehan' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+12-10-2026T15:36:28 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Last_name"), lastname): Text 'Anwar' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+12-10-2026T15:36:29 - [MESSAGE][PASSED] - Text 'Anwar' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+12-10-2026T15:36:29 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Email"), email): Text 'jehan2@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+12-10-2026T15:36:29 - [MESSAGE][PASSED] - Text 'jehan2@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+12-10-2026T15:36:29 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Phone"), phone): Text '0812345678' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+12-10-2026T15:36:30 - [MESSAGE][PASSED] - Text '0812345678' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+12-10-2026T15:36:30 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_1"), address1): Text 'Jl. Sudirman' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+12-10-2026T15:36:31 - [MESSAGE][PASSED] - Text 'Jl. Sudirman' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+12-10-2026T15:36:31 - [TEST_STEP][PASSED] - if (address2): Text 'Blok D' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+12-10-2026T15:36:31 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_2"), address2): Text 'Blok D' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+12-10-2026T15:36:32 - [MESSAGE][PASSED] - Text 'Blok D' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+12-10-2026T15:36:32 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_City"), city): Text 'Bandung' is set on object 'Object Repository/page_Sign_up/input_City'
+
+12-10-2026T15:36:33 - [MESSAGE][PASSED] - Text 'Bandung' is set on object 'Object Repository/page_Sign_up/input_City'
+
+12-10-2026T15:36:33 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_State"), state): Text 'Jabar' is set on object 'Object Repository/page_Sign_up/input_State'
+
+12-10-2026T15:36:34 - [MESSAGE][PASSED] - Text 'Jabar' is set on object 'Object Repository/page_Sign_up/input_State'
+
+12-10-2026T15:36:34 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Zip"), zip): Text '40111' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+12-10-2026T15:36:34 - [MESSAGE][PASSED] - Text '40111' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+12-10-2026T15:36:34 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Country"), country): Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+12-10-2026T15:36:35 - [MESSAGE][PASSED] - Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+12-10-2026T15:36:35 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Language_preference"), language, false): All options with label 'japanese' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+12-10-2026T15:36:36 - [MESSAGE][PASSED] - All options with label 'japanese' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+12-10-2026T15:36:36 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Favourite_category"), category, false): All options with label 'REPTILES' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+12-10-2026T15:36:36 - [MESSAGE][PASSED] - All options with label 'REPTILES' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+12-10-2026T15:36:36 - [TEST_STEP][PASSED] - if (enable_mylist.toBoolean()): Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+12-10-2026T15:36:36 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mylist")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+12-10-2026T15:36:37 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+12-10-2026T15:36:37 - [TEST_STEP][PASSED] - if (enable_mybanner.toBoolean()): Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+12-10-2026T15:36:37 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mybanner")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+12-10-2026T15:36:37 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+12-10-2026T15:36:37 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_up/btn_Save_account")): Object: 'Object Repository/page_Sign_up/btn_Save_account' is clicked on
+
+12-10-2026T15:36:39 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_up/btn_Save_account' is clicked on
+
+12-10-2026T15:36:39 - [TEST_STEP][PASSED] - if (ExpectedResult == "Success"): null
+
+12-10-2026T15:36:39 - [TEST_STEP][PASSED] - else: Actual object 'true' and expected object 'true' are equal
+
+12-10-2026T15:36:39 - [TEST_STEP][PASSED] - isStillInForm = verifyElementPresent(findTestObject("page_Sign_up/btn_Save_account"), 3, OPTIONAL): Object 'Object Repository/page_Sign_up/btn_Save_account' is present
+
+12-10-2026T15:36:39 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/btn_Save_account' is present
+
+12-10-2026T15:36:39 - [TEST_STEP][WARNING] - isError500 = verifyTextPresent("HTTP Status 500", false, OPTIONAL): Text 'HTTP Status 500' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'HTTP Status 500' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1808)
+	at TC_01_Register_New_Account.run(TC_01_Register_New_Account:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791794096883.run(TempTestSuite1791794096883.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+12-10-2026T15:36:40 - [MESSAGE][WARNING] - Text 'HTTP Status 500' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'HTTP Status 500' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1808)
+	at TC_01_Register_New_Account.run(TC_01_Register_New_Account:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791794096883.run(TempTestSuite1791794096883.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+12-10-2026T15:36:40 - [TEST_STEP][PASSED] - verifyEqual(isStillInForm || isError500, true): Actual object 'true' and expected object 'true' are equal
+
+12-10-2026T15:36:40 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+12-10-2026T15:36:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-10-2026T15:36:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_01_Register_New_Account" time="21.239" classname="Test Cases/TC_01_Register_New_Account" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) usern...":"","zip":"60111","country":"Indonesia","firstname":"Siti","enable_mybanner":"true","repeat_password":"Secret123","address2":"Blok E","city":"Surabaya","address1":"Jl. Ahmad Yani","language":"english","enable_mylist":"true","lastname":"Aminah","password":"Secret123","ExpectedResult":"Failed","phone":"0811223344","state":"Jatim","category":"BIRDS","email":"siti@email.com"}]]></property>
+         </properties>
+         <system-out><![CDATA[12-10-2026T15:36:40 - [TEST_CASE][PASSED] - Test Cases/TC_01_Register_New_Account: Test Cases/TC_01_Register_New_Account
+
+12-10-2026T15:36:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-10-2026T15:36:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-10-2026T15:36:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-10-2026T15:36:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-10-2026T15:36:42 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:36:44 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:36:44 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Sign_in")): Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T15:36:45 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T15:36:45 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_in/btn_Sign_up")): Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+12-10-2026T15:36:46 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+12-10-2026T15:36:46 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_UserID"), username): Text '' is set on object 'Object Repository/page_Sign_up/input_UserID'
+
+12-10-2026T15:36:47 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_Sign_up/input_UserID'
+
+12-10-2026T15:36:47 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Newpassword"), password): Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Newpassword'
+
+12-10-2026T15:36:48 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Newpassword'
+
+12-10-2026T15:36:48 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Repeat_password"), repeat_password): Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+12-10-2026T15:36:49 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+12-10-2026T15:36:49 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_First_name"), firstname): Text 'Siti' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+12-10-2026T15:36:50 - [MESSAGE][PASSED] - Text 'Siti' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+12-10-2026T15:36:50 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Last_name"), lastname): Text 'Aminah' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+12-10-2026T15:36:50 - [MESSAGE][PASSED] - Text 'Aminah' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+12-10-2026T15:36:50 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Email"), email): Text 'siti@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+12-10-2026T15:36:51 - [MESSAGE][PASSED] - Text 'siti@email.com' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+12-10-2026T15:36:51 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Phone"), phone): Text '0811223344' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+12-10-2026T15:36:52 - [MESSAGE][PASSED] - Text '0811223344' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+12-10-2026T15:36:52 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_1"), address1): Text 'Jl. Ahmad Yani' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+12-10-2026T15:36:53 - [MESSAGE][PASSED] - Text 'Jl. Ahmad Yani' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+12-10-2026T15:36:53 - [TEST_STEP][PASSED] - if (address2): Text 'Blok E' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+12-10-2026T15:36:53 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_2"), address2): Text 'Blok E' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+12-10-2026T15:36:54 - [MESSAGE][PASSED] - Text 'Blok E' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+12-10-2026T15:36:54 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_City"), city): Text 'Surabaya' is set on object 'Object Repository/page_Sign_up/input_City'
+
+12-10-2026T15:36:55 - [MESSAGE][PASSED] - Text 'Surabaya' is set on object 'Object Repository/page_Sign_up/input_City'
+
+12-10-2026T15:36:55 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_State"), state): Text 'Jatim' is set on object 'Object Repository/page_Sign_up/input_State'
+
+12-10-2026T15:36:55 - [MESSAGE][PASSED] - Text 'Jatim' is set on object 'Object Repository/page_Sign_up/input_State'
+
+12-10-2026T15:36:55 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Zip"), zip): Text '60111' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+12-10-2026T15:36:56 - [MESSAGE][PASSED] - Text '60111' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+12-10-2026T15:36:56 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Country"), country): Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+12-10-2026T15:36:57 - [MESSAGE][PASSED] - Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+12-10-2026T15:36:57 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Language_preference"), language, false): All options with label 'english' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+12-10-2026T15:36:58 - [MESSAGE][PASSED] - All options with label 'english' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+12-10-2026T15:36:58 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Favourite_category"), category, false): All options with label 'BIRDS' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+12-10-2026T15:36:58 - [MESSAGE][PASSED] - All options with label 'BIRDS' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+12-10-2026T15:36:58 - [TEST_STEP][PASSED] - if (enable_mylist.toBoolean()): Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+12-10-2026T15:36:58 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mylist")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+12-10-2026T15:36:59 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+12-10-2026T15:36:59 - [TEST_STEP][PASSED] - if (enable_mybanner.toBoolean()): Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+12-10-2026T15:36:59 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mybanner")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+12-10-2026T15:36:59 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+12-10-2026T15:36:59 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_up/btn_Save_account")): Object: 'Object Repository/page_Sign_up/btn_Save_account' is clicked on
+
+12-10-2026T15:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_up/btn_Save_account' is clicked on
+
+12-10-2026T15:37:00 - [TEST_STEP][PASSED] - if (ExpectedResult == "Success"): null
+
+12-10-2026T15:37:00 - [TEST_STEP][PASSED] - else: Actual object 'true' and expected object 'true' are equal
+
+12-10-2026T15:37:00 - [TEST_STEP][PASSED] - isStillInForm = verifyElementPresent(findTestObject("page_Sign_up/btn_Save_account"), 3, OPTIONAL): Object 'Object Repository/page_Sign_up/btn_Save_account' is present
+
+12-10-2026T15:37:01 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/btn_Save_account' is present
+
+12-10-2026T15:37:01 - [TEST_STEP][WARNING] - isError500 = verifyTextPresent("HTTP Status 500", false, OPTIONAL): Text 'HTTP Status 500' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'HTTP Status 500' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1808)
+	at TC_01_Register_New_Account.run(TC_01_Register_New_Account:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791794096883.run(TempTestSuite1791794096883.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+12-10-2026T15:37:01 - [MESSAGE][WARNING] - Text 'HTTP Status 500' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'HTTP Status 500' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1808)
+	at TC_01_Register_New_Account.run(TC_01_Register_New_Account:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791794096883.run(TempTestSuite1791794096883.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+12-10-2026T15:37:01 - [TEST_STEP][PASSED] - verifyEqual(isStillInForm || isError500, true): Actual object 'true' and expected object 'true' are equal
+
+12-10-2026T15:37:01 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+12-10-2026T15:37:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-10-2026T15:37:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_01_Register_New_Account" time="23.014" classname="Test Cases/TC_01_Register_New_Account" status="FAILED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"zip":"55111","country":"Indonesia","firstname":"Rina","enable_mybanner":"true","repeat_password":"Secret123","address2":"Blok U","city":"Yogyakarta","address1":"Jl. Malioboro","language":"japanese","enable_mylist":"true","lastname":"Melati","password":"Secret123","ExpectedResult":"Failed","phone":"0855667788","state":"DIY","category":"DOGS","email":"email-salah-format","username":"jehan0599123"}]]></property>
+         </properties>
+         <failure type="FAILED" message="Test Cases/TC_01_Register_New_Account FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)&#xa;	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)&#xa;	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at TC_01_Register_New_Account.run(TC_01_Register_New_Account:84)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1791794096883.run(TempTestSuite1791794096883.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[12-10-2026T15:37:02 - [TEST_CASE][FAILED] - Test Cases/TC_01_Register_New_Account: Test Cases/TC_01_Register_New_Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at TC_01_Register_New_Account.run(TC_01_Register_New_Account:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791794096883.run(TempTestSuite1791794096883.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+12-10-2026T15:37:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-10-2026T15:37:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-10-2026T15:37:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-10-2026T15:37:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-10-2026T15:37:03 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:37:05 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:37:05 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Sign_in")): Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T15:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T15:37:06 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_in/btn_Sign_up")): Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+12-10-2026T15:37:07 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_in/btn_Sign_up' is clicked on
+
+12-10-2026T15:37:07 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_UserID"), username): Text 'jehan0599123' is set on object 'Object Repository/page_Sign_up/input_UserID'
+
+12-10-2026T15:37:08 - [MESSAGE][PASSED] - Text 'jehan0599123' is set on object 'Object Repository/page_Sign_up/input_UserID'
+
+12-10-2026T15:37:08 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Newpassword"), password): Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Newpassword'
+
+12-10-2026T15:37:09 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Newpassword'
+
+12-10-2026T15:37:09 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Repeat_password"), repeat_password): Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+12-10-2026T15:37:09 - [MESSAGE][PASSED] - Text 'Secret123' is set on object 'Object Repository/page_Sign_up/input_Repeat_password'
+
+12-10-2026T15:37:09 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_First_name"), firstname): Text 'Rina' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+12-10-2026T15:37:10 - [MESSAGE][PASSED] - Text 'Rina' is set on object 'Object Repository/page_Sign_up/input_First_name'
+
+12-10-2026T15:37:10 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Last_name"), lastname): Text 'Melati' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+12-10-2026T15:37:11 - [MESSAGE][PASSED] - Text 'Melati' is set on object 'Object Repository/page_Sign_up/input_Last_name'
+
+12-10-2026T15:37:11 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Email"), email): Text 'email-salah-format' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+12-10-2026T15:37:12 - [MESSAGE][PASSED] - Text 'email-salah-format' is set on object 'Object Repository/page_Sign_up/input_Email'
+
+12-10-2026T15:37:12 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Phone"), phone): Text '0855667788' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+12-10-2026T15:37:13 - [MESSAGE][PASSED] - Text '0855667788' is set on object 'Object Repository/page_Sign_up/input_Phone'
+
+12-10-2026T15:37:13 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_1"), address1): Text 'Jl. Malioboro' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+12-10-2026T15:37:14 - [MESSAGE][PASSED] - Text 'Jl. Malioboro' is set on object 'Object Repository/page_Sign_up/input_Address_1'
+
+12-10-2026T15:37:14 - [TEST_STEP][PASSED] - if (address2): Text 'Blok U' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+12-10-2026T15:37:14 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Address_2"), address2): Text 'Blok U' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+12-10-2026T15:37:14 - [MESSAGE][PASSED] - Text 'Blok U' is set on object 'Object Repository/page_Sign_up/input_Address_2'
+
+12-10-2026T15:37:14 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_City"), city): Text 'Yogyakarta' is set on object 'Object Repository/page_Sign_up/input_City'
+
+12-10-2026T15:37:15 - [MESSAGE][PASSED] - Text 'Yogyakarta' is set on object 'Object Repository/page_Sign_up/input_City'
+
+12-10-2026T15:37:15 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_State"), state): Text 'DIY' is set on object 'Object Repository/page_Sign_up/input_State'
+
+12-10-2026T15:37:16 - [MESSAGE][PASSED] - Text 'DIY' is set on object 'Object Repository/page_Sign_up/input_State'
+
+12-10-2026T15:37:16 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Zip"), zip): Text '55111' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+12-10-2026T15:37:17 - [MESSAGE][PASSED] - Text '55111' is set on object 'Object Repository/page_Sign_up/input_Zip'
+
+12-10-2026T15:37:17 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_up/input_Country"), country): Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+12-10-2026T15:37:18 - [MESSAGE][PASSED] - Text 'Indonesia' is set on object 'Object Repository/page_Sign_up/input_Country'
+
+12-10-2026T15:37:18 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Language_preference"), language, false): All options with label 'japanese' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+12-10-2026T15:37:18 - [MESSAGE][PASSED] - All options with label 'japanese' are selected in object 'Object Repository/page_Sign_up/select_Language_preference' 
+
+12-10-2026T15:37:18 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("page_Sign_up/select_Favourite_category"), category, false): All options with label 'DOGS' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+12-10-2026T15:37:19 - [MESSAGE][PASSED] - All options with label 'DOGS' are selected in object 'Object Repository/page_Sign_up/select_Favourite_category' 
+
+12-10-2026T15:37:19 - [TEST_STEP][PASSED] - if (enable_mylist.toBoolean()): Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+12-10-2026T15:37:19 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mylist")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+12-10-2026T15:37:19 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mylist' is checked
+
+12-10-2026T15:37:19 - [TEST_STEP][PASSED] - if (enable_mybanner.toBoolean()): Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+12-10-2026T15:37:19 - [TEST_STEP][PASSED] - check(findTestObject("page_Sign_up/checkbox_Enable_mybanner")): Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+12-10-2026T15:37:20 - [MESSAGE][PASSED] - Object 'Object Repository/page_Sign_up/checkbox_Enable_mybanner' is checked
+
+12-10-2026T15:37:20 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_up/btn_Save_account")): Object: 'Object Repository/page_Sign_up/btn_Save_account' is clicked on
+
+12-10-2026T15:37:21 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_up/btn_Save_account' is clicked on
+
+12-10-2026T15:37:21 - [TEST_STEP][PASSED] - if (ExpectedResult == "Success"): null
+
+12-10-2026T15:37:21 - [TEST_STEP][FAILED] - else: Unable to verify equal between actual object 'false' and expected object 'true' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at TC_01_Register_New_Account.run(TC_01_Register_New_Account:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791794096883.run(TempTestSuite1791794096883.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+12-10-2026T15:37:21 - [TEST_STEP][WARNING] - isStillInForm = verifyElementPresent(findTestObject("page_Sign_up/btn_Save_account"), 3, OPTIONAL): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1549)
+	at TC_01_Register_New_Account.run(TC_01_Register_New_Account:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791794096883.run(TempTestSuite1791794096883.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+12-10-2026T15:37:24 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/page_Sign_up/btn_Save_account' located by 'By.cssSelector: input[name='newAccount']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1549)
+	at TC_01_Register_New_Account.run(TC_01_Register_New_Account:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791794096883.run(TempTestSuite1791794096883.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+12-10-2026T15:37:24 - [TEST_STEP][WARNING] - isError500 = verifyTextPresent("HTTP Status 500", false, OPTIONAL): Text 'HTTP Status 500' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'HTTP Status 500' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1808)
+	at TC_01_Register_New_Account.run(TC_01_Register_New_Account:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791794096883.run(TempTestSuite1791794096883.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+12-10-2026T15:37:25 - [MESSAGE][WARNING] - Text 'HTTP Status 500' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'HTTP Status 500' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1808)
+	at TC_01_Register_New_Account.run(TC_01_Register_New_Account:81)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791794096883.run(TempTestSuite1791794096883.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+12-10-2026T15:37:25 - [TEST_STEP][FAILED] - verifyEqual(isStillInForm || isError500, true): Unable to verify equal between actual object 'false' and expected object 'true' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at TC_01_Register_New_Account.run(TC_01_Register_New_Account:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791794096883.run(TempTestSuite1791794096883.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+12-10-2026T15:37:25 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'false' and expected object 'true' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at TC_01_Register_New_Account.run(TC_01_Register_New_Account:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791794096883.run(TempTestSuite1791794096883.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)]]></system-out>
+         <system-err><![CDATA[12-10-2026T15:37:02 - [TEST_CASE][FAILED] - Test Cases/TC_01_Register_New_Account: Test Cases/TC_01_Register_New_Account FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at TC_01_Register_New_Account.run(TC_01_Register_New_Account:84)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1791794096883.run(TempTestSuite1791794096883.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_02_Login_Success" time="11.912" classname="Test Cases/TC_02_Login_Success" status="PASSED">
+         <system-out><![CDATA[12-10-2026T15:37:25 - [TEST_CASE][PASSED] - Test Cases/TC_02_Login_Success: Test Cases/TC_02_Login_Success
+
+12-10-2026T15:37:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-10-2026T15:37:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-10-2026T15:37:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-10-2026T15:37:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-10-2026T15:37:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-10-2026T15:37:27 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:37:30 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:37:30 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Sign_in")): Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T15:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T15:37:32 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_in/input_Username"), valid_username): Text 'j2ee' is set on object 'Object Repository/page_Sign_in/input_Username'
+
+12-10-2026T15:37:33 - [MESSAGE][PASSED] - Text 'j2ee' is set on object 'Object Repository/page_Sign_in/input_Username'
+
+12-10-2026T15:37:33 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_in/input_Password"), valid_password): Text 'j2ee' is set on object 'Object Repository/page_Sign_in/input_Password'
+
+12-10-2026T15:37:34 - [MESSAGE][PASSED] - Text 'j2ee' is set on object 'Object Repository/page_Sign_in/input_Password'
+
+12-10-2026T15:37:34 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_in/btn_Login")): Object: 'Object Repository/page_Sign_in/btn_Login' is clicked on
+
+12-10-2026T15:37:36 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_in/btn_Login' is clicked on
+
+12-10-2026T15:37:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("page_Home/btn_Sign_out"), 5): Object 'Object Repository/page_Home/btn_Sign_out' is present
+
+12-10-2026T15:37:36 - [MESSAGE][PASSED] - Object 'Object Repository/page_Home/btn_Sign_out' is present
+
+12-10-2026T15:37:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-10-2026T15:37:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_03_Login_Failed" time="11.07" classname="Test Cases/TC_03_Login_Failed" status="PASSED">
+         <system-out><![CDATA[12-10-2026T15:37:37 - [TEST_CASE][PASSED] - Test Cases/TC_03_Login_Failed: Test Cases/TC_03_Login_Failed
+
+12-10-2026T15:37:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-10-2026T15:37:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-10-2026T15:37:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-10-2026T15:37:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-10-2026T15:37:38 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:37:42 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:37:42 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Sign_in")): Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T15:37:44 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Sign_in' is clicked on
+
+12-10-2026T15:37:44 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_in/input_Username"), valid_username): Text 'j2ee' is set on object 'Object Repository/page_Sign_in/input_Username'
+
+12-10-2026T15:37:45 - [MESSAGE][PASSED] - Text 'j2ee' is set on object 'Object Repository/page_Sign_in/input_Username'
+
+12-10-2026T15:37:45 - [TEST_STEP][PASSED] - setText(findTestObject("page_Sign_in/input_Password"), "PasswordSalah123"): Text 'PasswordSalah123' is set on object 'Object Repository/page_Sign_in/input_Password'
+
+12-10-2026T15:37:46 - [MESSAGE][PASSED] - Text 'PasswordSalah123' is set on object 'Object Repository/page_Sign_in/input_Password'
+
+12-10-2026T15:37:46 - [TEST_STEP][PASSED] - click(findTestObject("page_Sign_in/btn_Login")): Object: 'Object Repository/page_Sign_in/btn_Login' is clicked on
+
+12-10-2026T15:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Sign_in/btn_Login' is clicked on
+
+12-10-2026T15:37:46 - [TEST_STEP][PASSED] - verifyTextPresent("Invalid username or password", false): Text 'Invalid username or password' is present on page 
+
+12-10-2026T15:37:47 - [MESSAGE][PASSED] - Text 'Invalid username or password' is present on page 
+
+12-10-2026T15:37:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-10-2026T15:37:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_04_Search_Product" time="6.444" classname="Test Cases/TC_04_Search_Product" status="PASSED">
+         <system-out><![CDATA[12-10-2026T15:37:48 - [TEST_CASE][PASSED] - Test Cases/TC_04_Search_Product: Test Cases/TC_04_Search_Product
+
+12-10-2026T15:37:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-10-2026T15:37:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-10-2026T15:37:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-10-2026T15:37:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-10-2026T15:37:49 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:37:51 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:37:51 - [TEST_STEP][PASSED] - setText(findTestObject("page_Home/input_Search"), "fish"): Text 'fish' is set on object 'Object Repository/page_Home/input_Search'
+
+12-10-2026T15:37:52 - [MESSAGE][PASSED] - Text 'fish' is set on object 'Object Repository/page_Home/input_Search'
+
+12-10-2026T15:37:52 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Search")): Object: 'Object Repository/page_Home/btn_Search' is clicked on
+
+12-10-2026T15:37:53 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Search' is clicked on
+
+12-10-2026T15:37:53 - [TEST_STEP][PASSED] - verifyTextPresent("Goldfish", false): Text 'Goldfish' is present on page 
+
+12-10-2026T15:37:54 - [MESSAGE][PASSED] - Text 'Goldfish' is present on page 
+
+12-10-2026T15:37:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-10-2026T15:37:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_05_Add_Product_To_Cart" time="7.202" classname="Test Cases/TC_05_Add_Product_To_Cart" status="PASSED">
+         <system-out><![CDATA[12-10-2026T15:37:54 - [TEST_CASE][PASSED] - Test Cases/TC_05_Add_Product_To_Cart: Test Cases/TC_05_Add_Product_To_Cart
+
+12-10-2026T15:37:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+12-10-2026T15:37:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-10-2026T15:37:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-10-2026T15:37:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+12-10-2026T15:37:56 - [TEST_STEP][PASSED] - navigateToUrl(base_url): Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:37:57 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/actions/Catalog.action' successfully
+
+12-10-2026T15:37:57 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/link_Category_Fish")): Object: 'Object Repository/page_Home/link_Category_Fish' is clicked on
+
+12-10-2026T15:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/link_Category_Fish' is clicked on
+
+12-10-2026T15:37:58 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/link_Product_Angelfish")): Object: 'Object Repository/page_Home/link_Product_Angelfish' is clicked on
+
+12-10-2026T15:37:59 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/link_Product_Angelfish' is clicked on
+
+12-10-2026T15:37:59 - [TEST_STEP][PASSED] - click(findTestObject("page_Home/btn_Add_to_cart")): Object: 'Object Repository/page_Home/btn_Add_to_cart' is clicked on
+
+12-10-2026T15:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/page_Home/btn_Add_to_cart' is clicked on
+
+12-10-2026T15:38:00 - [TEST_STEP][PASSED] - verifyTextPresent("Shopping Cart", false): Text 'Shopping Cart' is present on page 
+
+12-10-2026T15:38:01 - [MESSAGE][PASSED] - Text 'Shopping Cart' is present on page 
+
+12-10-2026T15:38:01 - [TEST_STEP][PASSED] - verifyTextPresent("EST-1", false): Text 'EST-1' is present on page 
+
+12-10-2026T15:38:01 - [MESSAGE][PASSED] - Text 'EST-1' is present on page 
+
+12-10-2026T15:38:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+12-10-2026T15:38:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-10-2026T15:35:02 - [TEST_SUITE][FAILED] - TS_Web_Regression: null]]></system-out>
+      <system-err><![CDATA[12-10-2026T15:35:02 - [TEST_SUITE][FAILED] - TS_Web_Regression: null]]></system-err>
+   </testsuite>
+</testsuites>

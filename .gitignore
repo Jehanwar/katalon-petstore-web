@@ -1,0 +1,9 @@
+# Katalon Studio Git Ignore
+bin/
+build/
+.gradle/
+.cache/
+*.log
+output/
+!output/.gitkeep
+Libs/TempTestCase*.groovy
